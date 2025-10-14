@@ -1,0 +1,88 @@
+/*Carrusel*/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery {
+  background: transparent;
+  max-width: 500px;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: auto;
+  margin-right: 60px;
+  padding: 10px;
+  background: transparent;
+  /*background-color: #E1E3F2;*/
+  font-family: 'Manjari', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.gallery-cell img{
+  width: 80%;
+  min-width: 200px;
+}
+
+.gallery-cell .titulo2_moviles p{
+  width: 250px;
+}
+
+.gallery-cell .titulo2_moviles{
+  padding-bottom: 10px;
+}
+
+.afi{
+  -webkit-box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.34);
+ -moz-box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.34);
+  box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.34);
+}
+
+.gallery-cell .ico_carru img{
+  width: 80px;
+  min-width: 80px;
+}
+
+.gallery-cell p{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+ .gallery-cell .textocarru{
+  font-size: 17px;
+  font-weight: 400px;
+  width: 260px;
+  text-align: left;
+  margin-left: 2px;
+}
+
+@media (max-width: 600px) {
+   .gallery-cell .textocarru, .gallery-cell .titulo2_moviles p{
+    width: 210px;
+  }
+}
+
+.boton_afiche{
+  background-color: #979cb5;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 4px;
+  width: 150px;
+  height: 50px;
+  padding-top: 13px;
+  margin: 5px;
+}
+
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
