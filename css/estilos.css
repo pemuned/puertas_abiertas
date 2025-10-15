@@ -502,7 +502,7 @@ body, html {
 #puerta{
    position: absolute;
    left: 150px;
-   top:196px;
+   top:204px;
    width: 399px;
    height: 594px;
 }
@@ -1464,7 +1464,7 @@ body, html {
 
 #puerta{
    left: 100px;
-   top:91px;
+   top:98px;
    width: 299px;
    height: 494px;
 }
@@ -2404,7 +2404,7 @@ body, html {
   #puerta{
     width: 234px;
     height: 373px;
-    top:89px;
+    top:94px;
     left: 100px;
   }
 
