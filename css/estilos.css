@@ -3572,13 +3572,13 @@ body, html {
 
 #ventana_movil{
   padding: 10px;
-  background-color: #EAE6E4;
+  background-color: #28385b;
   width: 100%;
   max-width: 630px;
   min-width: 330px;
   border-radius: 10px;
   font-family: 'Manjari', sans-serif;
-  color: #62678F;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 17px;
 }
@@ -3610,7 +3610,7 @@ body, html {
 }
 
 #ventana_movil #logo_multimedia img{
-  width: 120px;
+  width: 142px;
 }
 
 #ventana_movil #logo_uned img{
@@ -3668,7 +3668,7 @@ body, html {
   }
 }
 
-@media (max-height: 560px) {
+@media (max-height: 800px) {/*560*/
   #contenedor_creditos_fijos_moviles{
     display: block;
   }
