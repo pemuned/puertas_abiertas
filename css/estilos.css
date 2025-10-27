@@ -224,12 +224,38 @@ body, html {
     cursor: pointer;
 }
 
+#b_cerrar_f{
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  margin-left: -5px;
+  margin-top: -5px;
+  background-color: #28385b;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+#b_cerrar_f div{
+  float: right;
+  margin-top: 6px;
+  margin-left: 3px;
+}
+
+#b_cerrar_f svg{
+  float: right;
+  margin-left: 3px;
+}
+
+#b_cerrar_f:hover{
+  opacity: 1;
+}
+
 #creditos{
   width: 100%;
   position: fixed;
   z-index: 5;
   background-color: rgba(0,0,0,0.80);
-  color: #62678F;
+  color: #FFFFFF;
   display: none;
 }
 
@@ -238,13 +264,13 @@ body, html {
     width: 50%;
     min-width: 340px;
     max-width: 840px;
-    background-color: #EAE6E4;
+    background-color: #28385b;
     border-radius: 10px;
     padding: 20px;
 }
 
 #contenedor_linea{
-  border-top: solid 2px #2D346A;
+  border-top: solid 2px #ffffff;
   height: 20px;
   width: 300px;
 }
@@ -278,11 +304,11 @@ body, html {
 }
 
 #logo_uned img{
-  width: 100px;
+  width: 92px;
 }
 
 #logo_multimedia img{
-  width: 150px;
+  width: 160px;
 }
 
 #titulo_creditos{
@@ -524,7 +550,7 @@ body, html {
 }
 
 #guia #logo_uned img{
-  width: 90px;
+  width: 120px;
 }
 
 #guia #logo_multimedia img{
@@ -1485,11 +1511,11 @@ body, html {
 }
 
 #guia #logo_uned img{
-  width: 60px;
+  width: 52px;
 }
 
 #guia #logo_multimedia img{
-  width: 88px;
+  width: 92px;
 }
 
 #texto_saludo{
