@@ -23,12 +23,12 @@
 <body>
 
 <div id="opaco_videos" align="center">
-  <div id="ventana_video"><div id="contenido_ventana_video" align="center"></div><br><div class="boton_ventanas" onclick="javascript:abrir_ventana_video('0');">Cerrar</div></div>
+  <div id="ventana_video"><div id="contenido_ventana_video" align="center"></div><br><div onclick="javascript:abrir_ventana_video('0');" id="b_cerrar_f"><div>Cerrar</div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/></svg></div></div>
 </div>
 
 
 <div id="opaco_compu" align="center"></div>
-<div id="contenedor_ventana_compu" align="center"><div id="ventana_compu"><div id="contenido_ventana_compu" align="center"></div><br><div class="boton_ventanas" onclick="javascript:abrir_ventana_compu('0');">Cerrar</div></div></div>
+<div id="contenedor_ventana_compu" align="center"><div id="ventana_compu"><div id="contenido_ventana_compu" align="center"></div><br><div onclick="javascript:abrir_ventana_compu('0');" id="b_cerrar_f"><div>Cerrar</div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/></svg></div></div></div>
 
 <div id="opaco_movil" align="center"></div>
 <div id="imagen_movil" align="center"></div>
@@ -36,7 +36,7 @@
   <div id="ventana_movil_contenido">
   </div>
   <br> 
-  <div class="boton_ventanas" onclick="javascript:abrir_ventana_movil('0');">Cerrar</div>
+  <div onclick="javascript:abrir_ventana_movil('0');" id="b_cerrar_f"><div>Cerrar</div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/></svg></div></div>
 </div></div>
 
 
@@ -102,8 +102,8 @@
        <div style="width: 100%;" align="center">
         <div style="cursor:pointer;" onclick="location.href='25_aniversario.html'" style="border-radius: 20px;"><img  width="150" src="images/elementos/g_btn_entrar.png"></div>
       </div>
-      <div class="textos_moviles"  style="margin-bottom: 40px; margin-top: 40px; padding-left: 30px; padding-right: 30px;">
-        <p>Bienvenidas y bienvenidos a la galería virtual del Programa de Producción Electrónica Multimedial (PEM), de la Universidad Estatal a Distancia, de Costa Rica.</p>   
+      <div align="center" class="textos_moviles"  style="margin-bottom: 40px; margin-top: 40px; width:100%;">
+        <p align="center">Bienvenidas y bienvenidos a la galería virtual del Programa de Producción Electrónica Multimedial (PEM), de la Universidad Estatal a Distancia, de Costa Rica.</p>   
         <div style="width: 100%; height:80px;">
             <div style="width: 50%; float: left;" align="right"><img width="90" src="images/galeria_multimedia_logo.png"></div>
             <div style="width: 50%; float: left; padding-left:20px;"><img width="52" src="images/galeria_uned_logo.png"></div>
@@ -191,9 +191,7 @@
       
       <div id="titulo_creditos"><b>Acerca de la Galería Virtual</b></div>
       
-      <div id="imagenescr">
-         <div id="logo_multimedia"><img src="images/galeria_multimedia_logo.png"></div><div id="logo_uned"><img src="images/galeria_uned_logo.png"></div>
-      </div>
+      <div id="imagenescr"><div id="logo_multimedia"><img src="images/galeria_multimedia_logo.png"></div><div id="logo_uned"><img src="images/galeria_uned_logo.png"></div></div>
        <div id="contenedor_linea"></div>
 
       <div align="left">
