@@ -378,9 +378,9 @@ body, html {
   border-radius: var(--borde);
   padding: var(--borde);
   --borde: 1em;
-  background-color: #293266;
-  filter: drop-shadow(0px 0px 1px #293266) ;
-  color: #FFFFFF;
+  background-color: #d6d6d6;
+  filter: drop-shadow(0px 0px 1px #d6d6d6) ;
+  color: #28385b;
 }
 
 .globo.iii{
@@ -404,7 +404,7 @@ body, html {
   bottom: calc( var(--colita) / -1.5);
   border-radius: 0 0 5em 0;
   box-shadow: 
-  inset calc(var(--colita)/-3) calc(var(--colita)/4) 0 0 #293266;
+  inset calc(var(--colita)/-3) calc(var(--colita)/4) 0 0 #d6d6d6;
 }
 /*Globo*/
 
@@ -894,8 +894,8 @@ body, html {
 
 .elemento_historia{
   position: absolute;
-  width: 370px;
-  height: 370px;
+  width: 380px;
+  height: 380px;
   cursor: pointer;
 }
 
@@ -964,7 +964,7 @@ body, html {
 }
 
 #ele_his_2 .globo.iii{
-  top:-120px;
+  top:-150px;
 }
 
 #luz_larga_4{
@@ -1707,6 +1707,7 @@ body, html {
   position: absolute;
   top: -5px;
   left: 4700px;
+  z-index: 800;
 }
 
 .luz_larga{
@@ -1903,7 +1904,7 @@ body, html {
 }
 
 #ele_his_2 .globo.iii{
-  top:-136px;
+  top:-156px;
 }
 
 #luz_larga_4{
@@ -2769,7 +2770,7 @@ body, html {
 }
 
 #ele_his_2 .globo.iii{
-  top:-137px;
+  top:-157px;
 }
 
 #luz_larga_4{
