@@ -300,7 +300,7 @@ body, html {
 }
 
 #logo_multimedia{
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 #logo_uned img{
@@ -550,7 +550,7 @@ body, html {
 }
 
 #guia #logo_uned img{
-  width: 120px;
+  width: 80px;
 }
 
 #guia #logo_multimedia img{
@@ -785,7 +785,7 @@ body, html {
 }
 
 
-#afiche2, #afiche3, #afiche4, #afiche5, #afiche6, #afiche7, #afiche8, #afiche9, #afiche10{
+#afiche2, #afiche3, #afiche4, #afiche5, #afiche6, #afiche7, #afiche8, #afiche9, #afiche10, #afiche11, #afiche12, #afiche13, #afiche14, #afiche15{
   position: absolute;
   top: 200px;
   left: 5280px;
@@ -793,13 +793,13 @@ body, html {
   height: 440px;
 }
 
-#afiche2imagen, #afiche3imagen, #afiche4imagen, #afiche5imagen, #afiche6imagen, #afiche7imagen, #afiche8imagen, #afiche9imagen, #afiche10imagen{
+#afiche2imagen, #afiche3imagen, #afiche4imagen, #afiche5imagen, #afiche6imagen, #afiche7imagen, #afiche8imagen, #afiche9imagen, #afiche10imagen, #afiche11imagen, #afiche12imagen, #afiche13imagen, #afiche14imagen, #afiche15imagen{
   float: left;
   width: 320px;
   height: 480px;
 }
 
-#afiche2imagen p, #afiche3imagen p, #afiche4imagen p, #afiche5imagen p, #afiche6imagen p, #afiche7imagen p, #afiche8imagen p, #afiche9imagen p, #afiche10imagen p{
+#afiche2imagen p, #afiche3imagen p, #afiche4imagen p, #afiche5imagen p, #afiche6imagen p, #afiche7imagen p, #afiche8imagen p, #afiche9imagen p, #afiche10imagen p, #afiche11imagen p, #afiche12imagen p, #afiche13imagen p, #afiche14imagen p, #afiche15imagen p{
   width: 340px;
   font-size: 20px;
   font-weight: 700;
@@ -809,7 +809,7 @@ body, html {
   margin-left: -10px;
 }
 
-#afiche2texto, #afiche3texto, #afiche4texto, #afiche5texto, #afiche6texto, #afiche7texto, #afiche8texto, #afiche9texto, #afiche10texto{
+#afiche2texto, #afiche3texto, #afiche4texto, #afiche5texto, #afiche6texto, #afiche7texto, #afiche8texto, #afiche9texto, #afiche10texto, #afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{
   padding: 20px;
   padding-top: 40px;
   float: left;
@@ -932,12 +932,20 @@ body, html {
   left: 10600px;
 }
 
+#luz_larga_6{
+  position: absolute;
+  top: -5px;
+  left: 22285px;
+  z-index: 800;
+}
+
 #afiche6{
   left: 10880px;
 }
 
 #afiche6texto{
   padding-top: 10px;
+  width: 620px;  
 }
 
 #banca_3{
@@ -971,6 +979,39 @@ body, html {
   position: absolute;
   top: -5px;
   left: 13400px;
+  z-index: 800;
+}
+
+
+#luz_larga_5{
+  position: absolute;
+  top: -5px;
+  left: 17750px; 
+  z-index: 800;
+}
+
+#afiche11{
+  left: 18050px;
+}
+
+#afiche12{
+  left: 19150px;
+}
+
+#afiche13{
+  left: 20150px;
+}
+
+#afiche14{
+  left: 22585px;
+}
+
+#afiche15{
+  left: 23595px;
+}
+
+#afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{
+  padding-top: 14px;
 }
 
 .luz_larg1{
@@ -1034,9 +1075,37 @@ body, html {
   width: 370px;
 }
 
+#luz_10{
+  position: absolute;
+  z-index: 3;
+  top: -5px;
+  left: 21250px;
+  width: 370px;
+}
+
+
+#luz_11{
+  position: absolute;
+  z-index: 3;
+  top: -5px;
+  left: 21650px;
+  width: 370px;
+}
+
+
 #ele_his_4{
   top: 540px;
   left: 17200px;
+}
+
+#ele_his_5{
+  top: 540px;
+  left: 21265px; 
+}
+
+#ele_his_6{
+  top: 540px;
+  left: 21665px; 
 }
 
 #texto_pres_ma{
@@ -1341,7 +1410,19 @@ body, html {
 #banca_6{
   position: absolute;
   top: 740px;
-  left: 27500px;
+  left: 18610px;
+}
+
+#banca_7{
+  position: absolute;
+  top: 740px;
+  left: 19700px;
+}
+
+#banca_8{
+  position: absolute;
+  top: 740px;
+  left: 23195px;
 }
 
 #texto_aniv{
@@ -1511,11 +1592,11 @@ body, html {
 }
 
 #guia #logo_uned img{
-  width: 52px;
+  width: 57px;
 }
 
 #guia #logo_multimedia img{
-  width: 92px;
+  width: 97px;
 }
 
 #texto_saludo{
@@ -1714,7 +1795,7 @@ body, html {
    width: 2000px;
 }
 
-#afiche2, #afiche3, #afiche4, #afiche5, #afiche6, #afiche7, #afiche8, #afiche9, #afiche10{
+#afiche2, #afiche3, #afiche4, #afiche5, #afiche6, #afiche7, #afiche8, #afiche9, #afiche10, #afiche11, #afiche12, #afiche13, #afiche14, #afiche15{
   position: absolute;
   top: 120px;
   left: 4900px;
@@ -1722,13 +1803,13 @@ body, html {
   height: 440px;
 }
 
-#afiche2imagen, #afiche3imagen, #afiche4imagen, #afiche5imagen, #afiche6imagen, #afiche7imagen, #afiche8imagen, #afiche9imagen, #afiche10imagen{
+#afiche2imagen, #afiche3imagen, #afiche4imagen, #afiche5imagen, #afiche6imagen, #afiche7imagen, #afiche8imagen, #afiche9imagen, #afiche10imagen, #afiche11imagen, #afiche12imagen, #afiche13imagen, #afiche14imagen, #afiche15imagen{
   float: left;
   width: 320px;
   height: 480px;
 }
 
-#afiche2imagen p, #afiche3imagen p, #afiche4imagen p, #afiche5imagen p, #afiche6imagen p, #afiche7imagen p, #afiche8imagen p, #afiche9imagen p, #afiche10imagen p{
+#afiche2imagen p, #afiche3imagen p, #afiche4imagen p, #afiche5imagen p, #afiche6imagen p, #afiche7imagen p, #afiche8imagen p, #afiche9imagen p, #afiche10imagen p, #afiche11imagen p, #afiche12imagen p, #afiche13imagen p, #afiche14imagen p, #afiche15imagen p{
   width: 340px;
   font-size: 20px;
   font-weight: 700;
@@ -1738,7 +1819,7 @@ body, html {
   margin-left: -20px;
 }
 
-#afiche2texto, #afiche3texto, #afiche4texto, #afiche5texto, #afiche6texto, #afiche7texto, #afiche8texto, #afiche9texto, #afiche10texto{
+#afiche2texto, #afiche3texto, #afiche4texto, #afiche5texto, #afiche6texto, #afiche7texto, #afiche8texto, #afiche9texto, #afiche10texto, #afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{
   padding: 20px;
   padding-top: 20px;
   float: left;
@@ -1818,7 +1899,7 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 9300px;
+  left: 9280px;
   width: 300px;
 }
 
@@ -1839,7 +1920,7 @@ body, html {
 
 #ele_his_1{
   top: 380px;
-  left: 9300px;
+  left: 9280px;
 }
 
 #ele_his_1 .globo.iii{
@@ -1868,16 +1949,37 @@ body, html {
   position: absolute;
   top: -5px;
   left: 9680px;
+  z-index: 800;
 }
+
+#luz_larga_6{
+  position: absolute;
+  top: -5px;
+  left: 20585px;
+  z-index: 800;
+}
+
 
 #afiche6{
-  left: 9880px;
+  left: 9780px;
 }
 
-#afiche6texto{
+#afiche2{
+  left: 4800px;
+}
+
+#afiche6, #afiche2{ /*CAMBIA AFICHES*/
+  width: 940px;
+}
+
+#afiche6texto, #afiche2texto{ /*CAMBIA AFICHES*/
   padding-top: 0px;
-  width: 510px;
- margin-top: -10px;
+  margin-top: -40px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 580px;
+  /*background-color: green;*/
 }
 
 #banca_3{
@@ -1911,6 +2013,40 @@ body, html {
   position: absolute;
   top: -5px;
   left: 12000px;
+}
+
+#luz_larga_5{
+  position: absolute;
+  top: -5px;
+  left: 16350px; 
+  z-index: 800;
+}
+
+#afiche11{
+  left: 16550px;
+}
+
+#afiche12{
+  left: 17650px;
+}
+
+#afiche13{
+  left: 18650px;
+}
+
+#afiche14{
+  left: 20835px;
+}
+
+#afiche15{
+  left: 21725px;
+}
+
+#afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{
+  margin-top: -25px;
+  padding-top: 0px;
+  width: 520px;
+  /*background-color: red;*/
 }
 
 .luz_larg1{
@@ -1972,12 +2108,46 @@ body, html {
   width: 300px;
 }
 
+#luz_10{
+  position: absolute;
+  z-index: 3;
+  top: -5px;
+  left: 19650px;
+  width: 370px;
+}
+
+#luz_11{
+  position: absolute;
+  z-index: 3;
+  top: -5px;
+  left: 20050px;
+  width: 370px;
+}
+
 #ele_his_4{
   top: 400px;
   left: 15800px;
 }
 
 #ele_his_4 .globo.iii{
+  top:-120px;
+}
+
+#ele_his_5{
+  top: 400px;
+  left: 19685px;
+}
+
+#ele_his_5 .globo.iii{
+  top:-120px;
+}
+
+#ele_his_6{
+  top: 400px;
+  left: 20085px; 
+}
+
+#ele_his_6 .globo.iii{
   top:-120px;
 }
 
@@ -2279,7 +2449,19 @@ body, html {
 #banca_6{
   position: absolute;
   top: 550px;
-  left: 25900px;
+  left: 17210px;
+}
+
+#banca_7{
+  position: absolute;
+  top: 550px;
+  left: 18300px;
+}
+
+#banca_8{
+  position: absolute;
+  top: 550px;
+  left: 21405px;
 }
 
 #texto_aniv{
@@ -2575,7 +2757,7 @@ body, html {
      width: 1800px;
   }
 
-#afiche2, #afiche3, #afiche4, #afiche5, #afiche6, #afiche7, #afiche8, #afiche9, #afiche10{
+#afiche2, #afiche3, #afiche4, #afiche5, #afiche6, #afiche7, #afiche8, #afiche9, #afiche10, #afiche11, #afiche12, #afiche13, #afiche14, #afiche15{
   position: absolute;
   top: 120px;
   left: 4250px;
@@ -2583,13 +2765,13 @@ body, html {
   height: 400px;
 }
 
-#afiche2imagen, #afiche3imagen, #afiche4imagen, #afiche5imagen, #afiche6imagen, #afiche7imagen, #afiche8imagen, #afiche9imagen, #afiche10imagen{
+#afiche2imagen, #afiche3imagen, #afiche4imagen, #afiche5imagen, #afiche6imagen, #afiche7imagen, #afiche8imagen, #afiche9imagen, #afiche10imagen, #afiche11imagen, #afiche12imagen, #afiche13imagen, #afiche14imagen, #afiche15imagen{
   float: left;
   width: 320px;
   height: 400px;
 }
 
-#afiche2imagen p, #afiche3imagen p, #afiche4imagen p, #afiche5imagen p, #afiche6imagen p, #afiche7imagen p, #afiche8imagen p, #afiche9imagen p, #afiche10imagen p{
+#afiche2imagen p, #afiche3imagen p, #afiche4imagen p, #afiche5imagen p, #afiche6imagen p, #afiche7imagen p, #afiche8imagen p, #afiche9imagen p, #afiche10imagen p, #afiche11imagen p, #afiche12imagen p, #afiche13imagen p, #afiche14imagen p, #afiche15imagen p{
   width: 300px;
   font-size: 18px;
   font-weight: 700;
@@ -2598,7 +2780,7 @@ body, html {
   margin-top: 20px;
 }
 
-#afiche2texto, #afiche3texto, #afiche4texto, #afiche5texto, #afiche6texto, #afiche7texto, #afiche8texto, #afiche9texto, #afiche10texto{
+#afiche2texto, #afiche3texto, #afiche4texto, #afiche5texto, #afiche6texto, #afiche7texto, #afiche8texto, #afiche9texto, #afiche10texto, #afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{
   padding: 0px;
   padding-top: 0px;
   float: left;
@@ -2734,17 +2916,25 @@ body, html {
   left: 8680px;
 }
 
+#luz_larga_6{
+  position: absolute;
+  top: -5px;
+  left: 20585px;
+  z-index: 800;
+}
+
 #afiche6{
   left: 8830px;
 }
 
-#afiche6texto{
+#afiche6texto, #afiche2texto{ /*CAMBIA AFICHES*/
   padding-top: 0px;
   padding-left: 5px;
   margin-left: -10px;
   line-height: 19px;
   margin-top: -55px;
 }
+
 
 #banca_3{
   position: absolute;
@@ -2777,6 +2967,41 @@ body, html {
   position: absolute;
   top: -5px;
   left: 11000px;
+}
+
+#luz_larga_5{
+  position: absolute;
+  top: -5px;
+  left: 16350px; 
+  z-index: 800;
+}
+
+#afiche11{
+  left: 16450px;
+}
+
+#afiche12{
+  left: 19650px;
+}
+
+#afiche13{
+  left: 20750px;
+}
+
+#afiche14{
+  left: 20885px;
+}
+
+#afiche15{
+  left: 21585px;
+}
+
+#afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{
+   padding-top: 0px;
+  padding-left: 5px;
+  margin-left: -10px;
+  line-height: 19px;
+  margin-top: -40px;
 }
 
 .luz_larg1{
@@ -2840,6 +3065,22 @@ body, html {
   width: 270px;
 }
 
+#luz_10{
+  position: absolute;
+  z-index: 3;
+  top: -5px;
+  left: 19650px;
+  width: 370px;
+}
+
+#luz_11{
+  position: absolute;
+  z-index: 3;
+  top: -5px;
+  left: 20050px;
+  width: 370px;
+}
+
 #ele_his_4{
   top: 260px;
   left: 14300px;
@@ -2847,6 +3088,24 @@ body, html {
 
 #ele_his_4 .globo.iii{
   top:-115px;
+}
+
+#ele_his_5{
+  top: 260px;
+  left: 19685px;
+}
+
+#ele_his_5 .globo.iii{
+  top:-120px;
+}
+
+#ele_his_6{
+  top: 260px;
+  left: 20085px; 
+}
+
+#ele_his_6 .globo.iii{
+  top:-120px;
 }
 
 #texto_pres_ma{
@@ -3156,7 +3415,19 @@ body, html {
 #banca_6{
   position: absolute;
   top: 430px;
-  left: 22100px;
+  left: 16610px;
+}
+
+#banca_7{
+  position: absolute;
+  top: 430px;
+  left: 20150px;
+}
+
+#banca_8{
+  position: absolute;
+  top: 430px;
+  left: 21185px;
 }
 
 #texto_aniv{
