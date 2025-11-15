@@ -22,13 +22,13 @@
 
 <body>
 
-<div id="opaco_videos" align="center">
-  <div id="ventana_video"><div id="contenido_ventana_video" align="center"></div><br><div onclick="javascript:abrir_ventana_video('0');" id="b_cerrar_f"><div>Cerrar</div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/></svg></div></div>
-</div>
+<!--<div id="opaco_videos" align="center">
+  <div id="ventana_video"><div id="contenido_ventana_video" align="center"></div><br><div class="boton_ventanas" onclick="javascript:abrir_ventana_video('0');">Cerrar</div></div>
+</div>-->
 
 
 <div id="opaco_compu" align="center"></div>
-<div id="contenedor_ventana_compu" align="center"><div id="ventana_compu"><div id="contenido_ventana_compu" align="center"></div><br><div onclick="javascript:abrir_ventana_compu('0');" id="b_cerrar_f"><div>Cerrar</div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/></svg></div></div></div>
+<div id="contenedor_ventana_compu" align="center"><div id="ventana_compu"><div id="contenido_ventana_compu" align="center"></div><br><div class="boton_ventanas" onclick="javascript:abrir_ventana_compu('0');">Cerrar</div></div></div>
 
 <div id="opaco_movil" align="center"></div>
 <div id="imagen_movil" align="center"></div>
@@ -36,8 +36,8 @@
   <div id="ventana_movil_contenido">
   </div>
   <br> 
-  <div onclick="javascript:abrir_ventana_movil('0');" id="b_cerrar_f"><div>Cerrar</div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/></svg></div>
-</div></div>   
+  <div class="boton_ventanas" onclick="javascript:abrir_ventana_movil('0');">Cerrar</div>
+</div></div> 
 
 
 <!-- 
@@ -69,7 +69,7 @@
         </div>
         <div id="n_3">
           <div class="imagen_popup" id="trespopup"><img src="images/popupinfo/galeria_mouse.svg"></div>
-          <div class="texto_popup">Con la rueda de desplazamiento del ratón</div>
+          <div class="texto_popup">Con la rueda de desplazamiento del <i>mouse</i></div>
           <div class="tult_popup">
             <div class="circulo" onclick="javascript:menu_bolitas('3_1');"></div>
             <div class="circulo" onclick="javascript:menu_bolitas('3_2');"></div>
@@ -113,24 +113,24 @@
          <div id="texto_saludo">
            <div id="titulo_moviles"><p><b>Galería virtual</b></p></div> 
            <div id="titulo_2"><p>25 aniversario</p></div>
-           <p>Bienvenidas y bienvenidos a la galería virtual del Programa de Producción Electrónica Multimedial (PEM) de la Universidad Estatal a Distancia de Costa Rica (UNED).<br>Les invitamos a recorrer este espacio con motivo del 25 aniversario del Programa, donde encontrará, una exposición de afiches representativos de materiales didácticos interactivos multimedia concluidos entre los años 2021 y 2025, así como reconocimientos, proyectos y convenios que se realizaron en ese periodo, entre otras secciones.<br>Estos recursos se destacan por su calidad y valor educativo, y constituyen ejemplos claros de los aportes del PEM al compromiso institucional de ofrecer herramientas de apoyo que fortalezcan las experiencias de aprendizaje de personas estudiantes y docentes, en el marco del modelo de educación a distancia de la UNED.</p>
+           <p>Bienvenidas y bienvenidos a la galería virtual del Programa de Producción Electrónica Multimedial (PEM) de la Universidad Estatal a Distancia de Costa Rica (UNED).<br>Acompáñenos a recorrer este espacio con motivo del 25 aniversario del Programa, donde encontrará; una exposición de afiches representativos de materiales didácticos interactivos multimedia concluidos entre los años 2021 y 2025, así como reconocimientos, proyectos y convenios que se realizaron en ese periodo, entre otras secciones.<br>Estos recursos se destacan por su calidad y valor educativo, y constituyen ejemplos claros de los aportes del PEM al compromiso institucional de ofrecer herramientas de apoyo que fortalezcan las experiencias de aprendizaje de personas estudiantes y docentes, en el marco del modelo de educación a distancia de la UNED.</p>
          </div>
          <div id="titulo_tuto">
            <p>Para navegar en la galería virtual puede hacerlo de 3 formas distintas:</p>
           <div id="contenedortuto">
-             <div class="piezatuto"><img src="images/galeria/circulo_flechas.svg"> <p>Con los botones de navegación de la interfaz</p></div>
-             <div class="piezatuto"><img src="images/galeria/circulo_raton.svg"> <p>Con la rueda de desplazamiento del ratón</p></div>
-             <div class="piezatuto"><img src="images/galeria/circulo _teclado.svg"> <p>Con las flechas <br>del teclado</p></div>
+             <div class="piezatuto"><img src="images/galeria/circulo_flechas.png"> <p>Con los botones de navegación de la interfaz</p></div>
+             <div class="piezatuto"><img src="images/galeria/circulo_raton.png"> <p>Con la rueda de desplazamiento del <i>mouse</i></p></div>
+             <div class="piezatuto"><img src="images/galeria/circulo _teclado.png"> <p>Con las flechas <br>del teclado</p></div>
           </div>
         </div>
 
       <div id="luz_2" align="center"><img class="spot" src="images/elementos/spot.png"></div>
       <div id="afiche1">
         <div id="afiche1imagen" align="center">
-             <img class="afiche" src="images/afiches/g_afiche25.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('10');" class="afiche" src="images/afiches/g_afiche25.png">
              <p>Afiche conmemorativo del 25 aniversario</p>
         </div>
-        <div id="afiche1texto"><p>En el año 2025, el PEM celebra "25 años inspirando aprendizaje", a través de la producción de materiales didácticos interactivos multimedia, que buscan cumplir con estándares de calidad que surgen de la experiencia de más de 25 años de investigación y producción y del aporte de todas las personas que han formado parte de nuestros equipos de producción.</p><p>Estos estándares responden a novedosos enfoques pedagógicos, a criterios universales de diseño y al uso de las tecnologías emergentes. Todo esto, con el fin de favorecer los procesos de aprendizaje de las personas estudiantes, acordes con las necesidades de áreas sustantivas como la docencia, investigación, extensión universitaria, entre otras, tanto a nivel nacional como internacional.</p></div>
+        <div id="afiche1texto"><p>En el año 2025, el PEM celebra "25 años inspirando aprendizaje", a través de la producción de materiales didácticos interactivos multimedia, que buscan cumplir con estándares de calidad, que surgen de la experiencia de más de dos décadas de investigación y producción y del aporte de todas las personas, quienes han formado parte de nuestros equipos de producción.</p><p>Estos estándares responden a novedosos enfoques pedagógicos, a criterios universales de diseño y al uso de las tecnologías emergentes, con el fin de favorecer los procesos de aprendizaje de las personas estudiantes, acordes con las necesidades de áreas sustantivas como la docencia, investigación, extensión universitaria, entre otras, tanto a nivel nacional como internacional.</p></div>
       </div> 
       <div id="textoconteo" align="center"><p id="p1">
 <a>
@@ -140,235 +140,270 @@ border="0" alt="Counter"></a>
       <div id="conteo" align="center"><img src="images/elementos/caballete.png"></div>   
 
         <div id="luz_3" align="center"><img class="spot" src="images/elementos/spot.png"></div>
-       <div id="texto_acto"><p id="t_acto" class="titulo_primeralinea">25 años inspirando aprendizaje</p><p>Palabras de las autoridades universitarias</p></div>
+       <div id="texto_acto"><p id="t_acto" class="titulo_primeralinea">25 años inspirando aprendizaje</p><p>Palabras de la doctora Mildred Acuña Sossa, Vicerrectora de Docencia; del doctor Luis Fernando Fallas Fallas, Director de la Dirección de Producción de Materiales Didácticos; y, del Máster Juan Diego Delgado Vargas, Coordinador del PEM.</p></div>
 
        <div id="imagen_tv"><img src="images/galeria/tv.svg"></div>
-       <div id="video_tv" align="center"><iframe src="https://vimeo.com/showcase/000000/embed" frameborder="0" allowfullscreen="" ></iframe></div>
+       <div id="video_tv" align="center"><iframe src="https://vimeo.com/showcase/1135400466/embed" frameborder="0" allowfullscreen=""></iframe></div>
 
+
+       <div id="luz_pensador" align="center"><img class="spot" src="images/elementos/spot.png"></div>
+
+       <div id="logo_20" align="center" style="margin-left:-220px; margin-top: -20px;"><img width="360" src="images/galeria/g_emblema 25.png"></div>
+       <div id="pensador_1" align="center" style="margin-left:-90px; margin-top: -100px;"><img width="580" src="images/elementos/g_pensador.png"></div>
+
+       
        <div id="luz_4" align="center"><img class="spot" src="images/elementos/spot.png"></div>
+
       <div id="texto_afiches-e"><p id="t_afiches-e" class="titulo_primeralinea">Exposición de afiches</p><p>Materiales multimedia<br>2021-2025</p></div>
 
       <div id="luz_larga_1" align="center"><img class="luz_larga" src="images/elementos/luz1.png"></div>
       <div id="afiche2">
         <div id="afiche2imagen" align="center">
-             <img class="afiche" src="images/afiches/AficheActionOrientedApproach.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('1');" class="afiche" src="images/afiches/AficheActionOrientedApproach.png">
              <p style="margin-left:-8px;">Action Oriented Approach</p>
         </div>
-        <div id="afiche2texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>This multimedia material focuses on the Action Oriented Approach which has been used by the Ministerio de Educación Pública (MEP) in the English Curriculum since 2016.</span></li><!--<li><span>XXXXX</span></li><li><span>XXXXX</span></li>--></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Students of the English Teaching for I and II Cycles Major and all those interested in learning English.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">School of Social Sciences and Humanities, English Teaching for I and II Cycles Major, English Teaching Department.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href=" https://multimedia.uned.ac.cr/pem/action_oriented_approach/pag/home.html" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>action_oriented_approach/<wbr>pag/<wbr>home.<wbr>html</a></p></div>
+        <div id="afiche2texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Multimedia en lengua inglesa, centrado en el enfoque orientado a la acción, usado por el Ministerio de Educación Pública desde el 2016.</span></li><li><span>&nbsp;Facilita la comprensión de los conceptos principales del nuevo currículo y su aplicación, tanto en la planificación como en la enseñanza.</span></li><li><span>&nbsp;Incluye proyectos didácticos descargables.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de Enseñanza del Inglés, I y II Ciclos</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Escuela de Ciencias Sociales y Humanidades, Cátedra de Enseñanza del Inglés.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href=" https://multimedia.uned.ac.cr/pem/action_oriented_approach/pag/home.html" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>action_oriented_approach/<wbr>pag/<wbr>home.<wbr>html</a></p></div>
       </div> 
       <div id="banca_1" align="center"><img class="banca" src="images/elementos/banca.png"></div>
       <div id="afiche3">
         <div id="afiche3imagen" align="center">
-             <img class="afiche" src="images/afiches/afiche_PlanetaPlanta.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('2');" class="afiche" src="images/afiches/afiche_PlanetaPlanta.png">
              <p style="margin-left:-5px;">Planeta Planta</p>
         </div>
-        <div id="afiche3texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>XXXXX</span></li><li><span>XXXXX</span></li><li><span>XXXXX</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://www.uned.cr/qr/XXXXX" target="_blank">https://<wbr>www.<wbr>uned.<wbr>cr/<wbr>qr/<wbr>XXXXX</a></p></div>
+        <div id="afiche3texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Explora la vida de las plantas, su evolución, fisiología y diversidad con un enfoque científico y accesible.</span></li><li><span>&nbsp;Incluye contenidos sobre estructura, fisiología vegetal, diversidad y conservación.</span></li><li><span>&nbsp;Emplea cuestionarios formativos para evaluar el conocimiento previo y posterior a los contenidos.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes universitarios, especialmente de la Escuela de Ciencias Exactas y Naturales de la UNED, y personas interesadas en botánica general.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Escuela Ciencias Exactas y Naturales, Cátedra Ciencias Biológicas.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/planeta_planta/" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>planeta_planta/</a></p></div>
       </div> 
-      <div id="luz_5" align="center"><img class="spot" src="images/elementos/spot.png"></div>
-       <div id="logo_20" align="center" style="margin-left:-120px;"><img class="e20_ani" src="images/galeria/g_emblema 25.png"></div>
-       <div id="venus_1" align="center" style="margin-left:-90px; margin-top: 30px;"><img width="440" src="images/elementos/g_pensador.png"></div>
+
+      <div id="luz_5" align="center"><img class="spot" src="images/elementos/spot.png"></div> 
+
+      <div class="elemento_historia" id="ele_his_1"><div class="circulo_grande"></div><img src="images/elementos/g_hito_multimedia.png"><p class="globo iii abajo-izquierda"><b>Multimedia UNED:</b> catálogo de materiales didácticos interactivos multimedia.</p></div>
+     
+
        <div id="luz_larga_2" align="center"><img class="luz_larga" src="images/elementos/luz1.png"></div>
       <div id="afiche4">
         <div id="afiche4imagen" align="center">
-             <img class="afiche" src="images/afiches/AficheQualituFair.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('3');" class="afiche" src="images/afiches/AficheQualituFair.png">
              <p>Quality Fair</p>
         </div>
-        <div id="afiche4texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>XXXXX</span></li><li><span>XXXXX</span></li><li><span>XXXXX</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://www.uned.cr/qr/XXXXX" target="_blank">https://<wbr>www.<wbr>uned.<wbr>cr/<wbr>qr/<wbr>XXXXX</a></p></div>
+        <div id="afiche4texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Este multimedia en idioma inglés permite aprender y practicar sobre el uso correcto de los adjetivos.</span></li><li><span>&nbsp;Utiliza elementos de gamificación.</span></li><li><span>&nbsp;El material incluye tres actividades interactivas, con distintos niveles de dificultad.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de la Carrera de Enseñanza del Inglés.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Escuela de Ciencias Sociales y Humanidades, Cátedra de Enseñanza del Inglés.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/quality_fair/" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>quality_fair/</a></p></div>
       </div> 
       <div id="banca_2" align="center"><img class="banca" src="images/elementos/banca.png"></div>
       <div id="afiche5">
         <div id="afiche5imagen" align="center">
-             <img class="afiche" src="images/afiches/afi_blanco.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('4');" class="afiche" src="images/afiches/af_precalculo.png">
              <p>Academia Precálculo</p>
         </div>
-        <div id="afiche5texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>XXXXX</span></li><li><span>XXXXX</span></li><li><span>XXXXX</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://www.uned.cr/qr/XXXXX" target="_blank">https://<wbr>www.<wbr>uned.<wbr>cr/<wbr>qr/<wbr>XXXXX</a></p></div>
+        <div id="afiche5texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Multimedia interactivo para practicar y aplicar conceptos de álgebra y funciones.</span></li><li><span>&nbsp;Emplea la metáfora de un programa de entrenamiento con salones y medallas de evaluación.</span></li><li><span>&nbsp;Ofrece recursos interactivos para identificar las propiedades de las funciones.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de la Escuela Ciencias Exactas y Naturales de la UNED que cursan Matemática Nivelatoria, Elementos de Matemática Nivelatoria y Matemática Introductoria.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Escuela Ciencias Exactas y Naturales, Cátedra Matemática para Ingeniería y Cálculo.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/academia-precalculo/" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>academia-<wbr>precalculo/</a></p></div>
       </div> 
 
-      <div id="luz_6" align="center"><img class="spot" src="images/elementos/spot.png"></div>
-      <div class="elemento_historia" id="ele_his_1"><div class="circulo_grande"></div><img src="images/elementos/g_hito_qr.png"><p class="globo iii abajo-izquierda"><b>QR UNED:</b> Gestione códigos QR y direcciones web cortas. De uso exclusivo para funcionarios de la UNED.</p></div>
 
+      <div id="luz_6" align="center"><img class="spot" src="images/elementos/spot.png"></div>
+
+      <div class="elemento_historia" id="ele_his_2"><div class="circulo_grande"></div><img src="images/elementos/g_hito_sonar.png"><p class="globo iii abajo-izquierda"><b>SONAR Multimedia:</b> blog para compartir información sobre el quehacer multimedia.</p></div>
+   
       <div id="luz_larga_3" align="center"><img class="luz_larga" src="images/elementos/luz1.png"></div>
 
       <div id="afiche6">
         <div id="afiche6imagen" align="center">
-             <img class="afiche" src="images/afiches/AficheDarkTourism.png">
-             <p>Dark Tourism en Costa Rica</p>
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('5');" class="afiche" src="images/afiches/AficheDarkTourism.png">
+             <p><i>Dark Tourism</i> en Costa Rica</p>
         </div>
-        <div id="afiche6texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>Recurso educativo creado por la UNED y el Dr. Xavier Puertas Montoro, basado en una investigación sobre Dark Tourism.</span></li><li><span>Entorno digital en dos dimensiones que permite explorar espacios y acceder a información sobre el Dark Tourism y su presencia en sitios patrimoniales de Costa Rica.</span></li><li><span>Incluye la clasificación de sitios turísticos y rutas para recorridos de Dark Tourism en Costa Rica.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de la Cátedra de Emprendedurismo Turístico y personas interesadas en el tema y su identificación en Costa Rica.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left"> Escuela Ciencias Sociales y Humanidades (ECSH), Cátedra de Emprendedurismo Turístico.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/dark_tourism/" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>dark_tourism/</a></p></div>
+        <div id="afiche6texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Desarrollado junto al Dr. Xavier Puertas Montoro a partir de una investigación sobre <i>Dark Tourism</i>.</span></li><li><span>&nbsp;Entorno ilustrado en dos dimensiones, que permite explorar espacios con información y conceptos sobre <i>Dark Tourism</i> en Costa Rica.</span></li><li><span>&nbsp;Incluye una clasificación de sitios turísticos y rutas programadas del <i>Dark Tourism</i> en Costa Rica.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de la Cátedra de Emprendedurismo Turístico y público interesado en el tema en Costa Rica.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left"> Escuela Ciencias Sociales y Humanidades, Cátedra de Emprendedurismo Turístico.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/dark_tourism/" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>dark_tourism/</a></p></div>
       </div> 
       <div id="banca_3" align="center"><img class="banca" src="images/elementos/banca.png"></div>
       <div id="afiche7">
         <div id="afiche7imagen" align="center">
-             <img class="afiche" src="images/afiches/Afiche_SAPC.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('6');" class="afiche" src="images/afiches/Afiche_SAPC.png">
              <p>Simulador de precios y costos</p>
         </div>
-        <div id="afiche7texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>XXXXX</span></li><li><span>XXXXX</span></li><li><span>XXXXX</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://www.uned.cr/qr/XXXXX" target="_blank">https://<wbr>www.<wbr>uned.<wbr>cr/<wbr>qr/<wbr>XXXXX</a></p></div>
+        <div id="afiche7texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Herramienta que facilita el cálculo de bienes o servicios y la definición de precios.</span></li><li><span>&nbsp;Ayuda a los empresarios a mantener un registro sistemático de los precios y costos de sus productos o servicios.</span></li><li><span>&nbsp;Permite comparar y calcular ganancias utilizando dos métodos: precio de mercado por demanda o porcentaje deseado.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Emprendedores y pequeñas empresas</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Vicerrectoría Extensión y Vinculación Territorial, Programa Desarrollo Gerencial.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://sapc.uned.ac.cr/" target="_blank">https://<wbr>www.<wbr>sapc.<wbr>uned.<wbr>ac.<wbr>cr/</a></p></div>
       </div> 
 
-      <div id="luz_7" align="center"><img class="spot" src="images/elementos/spot.png"></div>
-      <div class="elemento_historia" id="ele_his_2"><div class="circulo_grande"></div><img src="images/elementos/g_hito_multimedia.png"><p class="globo iii abajo-izquierda"><b>Multimedia UNED:</b> Acceda a materiales didácticos interactivos multimedia y recursos digitales de la UNED.</p></div>
 
-      <div id="luz_larga_4" align="center"><img class="luz_larg1" src="images/elementos/luz2.png"></div>
+      <div id="luz_7" align="center"><img class="spot" src="images/elementos/spot.png"></div>
+
+      <div class="elemento_historia" id="ele_his_3"><div class="circulo_grande"></div><img src="images/elementos/g_hito_insignia.png"><p class="globo iii abajo-izquierda"><b>Insignia UNED:</b> herramienta para crear y adjudicar insignias digitales.</p></div>
+      
+
+      <div id="luz_larga_4" align="center"><img class="luz_larga" src="images/elementos/luz1.png"></div>
 
       <div id="afiche8">
         <div id="afiche8imagen" align="center">
-             <img class="afiche" src="images/afiches/afi_blanco.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('7');" class="afiche" src="images/afiches/af_gira_virtual.png">
              <p>Gira virtual Parque Nacional los Quetzales y Cerro Buenavista</p>
         </div>
-        <div id="afiche8texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>XXXXX</span></li><li><span>XXXXX</span></li><li><span>XXXXX</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://www.uned.cr/qr/XXXXX" target="_blank">https://<wbr>www.<wbr>uned.<wbr>cr/<wbr>qr/<wbr>XXXXX</a></p></div>
+        <div id="afiche8texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Expone el muestreo para registrar datos de plantas.</span></li><li><span>&nbsp;Compara datos entre el Cerro Buenavista, sector Las Antenas y el Parque Nacional Los Quetzales.</span></li><li><span>&nbsp;Contiene un inventario de plantas y aves con fotos, datos y cantos grabados.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de los Programas de Gestión Turística Sostenible y Manejo de Recursos Naturales.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Escuela Ciencias Exactas y Naturales, Cátedra Ciencias Biológicas, Programas de Gestión Turística Sostenible y Manejo de Recursos Naturales.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/gira-virtual-qbv/inicio" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>gira-<wbr>virtual-<wbr>qbv/<wbr>inicio</a></p></div>
       </div> 
       <div id="banca_4" align="center"><img class="banca" src="images/elementos/banca.png"></div>
       <div id="afiche9">
         <div id="afiche9imagen" align="center">
-             <img class="afiche" src="images/afiches/AficheTransitemos.png">
-             <p>Transitemos hacia una nueva cultura de seguridad vial</p>
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('8');" class="afiche" src="images/afiches/AficheTransitemos.png">
+             <p>Transitemos hacia una nueva <br>cultura de seguridad vial</p>
         </div>
-        <div id="afiche9texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>XXXXX</span></li><li><span>XXXXX</span></li><li><span>XXXXX</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://www.uned.cr/qr/XXXXX" target="_blank">https://<wbr>www.<wbr>uned.<wbr>cr/<wbr>qr/<wbr>XXXXX</a></p></div>
+        <div id="afiche9texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Multimedia dirigido a estudiantes de secundaria del del Colegio Nacional de Educación a Distancia.</span></li><li><span>&nbsp;Promueve valores y seguridad vial mediante la cultura vial costarricense.</span></li><li><span>&nbsp;Presenta contenidos con un diseño intuitivo y dinámico.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de educación secundaria del Programa de Estudios de Educación Cívica, Tercer Ciclo de Educación General Básica y Educación Diversificada del Colegio Nacional de Educación a Distancia.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Universidad Estatal a Distancia, Colegio Nacional de Educación a Distancia, Ministerio de Educación Pública.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/seguridad-vial/" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>seguridad-<wbr>vial/</a></p></div>
       </div> 
-      <div id="banca_5" align="center"><img class="banca" src="images/elementos/banca.png"></div>
+
+
+      <div id="luz_8" align="center"><img class="spot" src="images/elementos/spot.png"></div>
+
+      <div class="elemento_historia" id="ele_his_4"><div class="circulo_grande"></div><img src="images/elementos/g_hito_qr.png"><p class="globo iii abajo-izquierda"><b>QR UNED:</b> herramienta para crear y administrar códigos QR. </p></div>
+
+
+      <div id="luz_larga_5" align="center"><img class="luz_larga" src="images/elementos/luz1.png"></div>
+
+ 
       <div id="afiche10">
         <div id="afiche10imagen" align="center">
-             <img class="afiche" src="images/afiches/afi_blanco.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('9');" class="afiche" src="images/afiches/af_feri_vocacional.png">
              <p>Feria vocacional en línea 2023</p>
         </div>
-        <div id="afiche10texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>Surge como una alternativa para divulgar la información vocacional de la UNED en el contexto de la virtualización postcovid.</span></li><li><span>Brinda un entorno inmersivo en tres dimensiones para explorar la información de las carreras universitarias.</span></li><!-- <li><span>Es un proyecto en actualización continua que garantiza información vigente para los futuros estudiantes.</span></li>--></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de secundaria y personas interesadas en realizar estudios superiores.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Oficina de Orientación y Desarrollo Estudiantil, OFODE</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://feriavocacional.uned.ac.cr/" target="_blank">https://<wbr>feriavocacional.<wbr>uned.<wbr>ac.<wbr>cr/</a></p></div>
+        <div id="afiche10texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Nace como una alternativa para divulgar la información vocacional de la UNED, en el marco de la virtualización postcovid.</span></li><li><span>&nbsp;Ofrece un entorno inmersivo en tres dimensiones, para conocer la información de las carreras de la universidad.</span></li><li><span>&nbsp;Proyecto en actualización constante que brinda información actual a futuros estudiantes.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de secundaria y personas interesadas en realizar estudios superiores.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Oficina de Orientación y Desarrollo Estudiantil, OFODE</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://feriavocacional.uned.ac.cr/" target="_blank">https://<wbr>feriavocacional.<wbr>uned.<wbr>ac.<wbr>cr/</a></p></div>
       </div> 
-
-       <div id="luz_8" align="center"><img class="spot" src="images/elementos/spot.png"></div>
-       <div class="elemento_historia" id="ele_his_3"><div class="circulo_grande"></div><img src="images/elementos/g_hito_autogestion.png"><p class="globo iii abajo-izquierda"><b>Plataformas Académicas de Autogestión, PAAGs:</b> Administre sitios web de actividades académicas.</p></div>
-
-      <div id="luz_9" align="center"><img class="spot" src="images/elementos/spot.png"></div>
-      <div class="elemento_historia" id="ele_his_4"><div class="circulo_grande"></div><img src="images/elementos/g_hito_sonar.png"><p class="globo iii abajo-izquierda"><b>SONAR Multimedia:</b> Descubra más sobre el quehacer del PEM en la producción de materiales didácticos.</p></div>
-
-      
-      <!-- 
-      <div id="texto_pres_ma"><p id="t_pres_ma" class="titulo_primeralinea">Presentación</p><p>De materiales multimedia</p></div>
-  
-      <div id="con_b_banner_1" align="center"><a onclick="javascript:abrir_ventana_video('1');">Ver video</a></div>
-      <div class="banner" id="banner_1" align="center"><img src="images/elementos/colg_coro.png"><p>Partes del todo</p></div>
-
-       <div id="con_b_banner_2" align="center"><a onclick="javascript:abrir_ventana_video('2');">Ver video</a></div>
-      <div class="banner" id="banner_2" align="center"><img src="images/elementos/colg_grammar.png"><p>Grammar Village</p></div>
-
-       <div id="con_b_banner_3" align="center"><a onclick="javascript:abrir_ventana_video('3');">Ver video</a></div>
-      <div class="banner" id="banner_3" align="center"><img src="images/elementos/colg_baraja.png"><p>Baraja Genómica</p></div> -->
-
-
-       <div id="luz_larga_5" align="center"><img class="luz_larg1" src="images/elementos/luz2.png"></div>
-
-       <div id="afiche11">
+      <div id="banca_5" align="center"><img class="banca" src="images/elementos/banca.png"></div>
+      <div id="afiche11">
         <div id="afiche11imagen" align="center">
-             <img class="afiche" src="images/afiches/afi_blanco.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('11');" class="afiche" src="images/afiches/af_criminologia.png">
              <p>Fundamentos de Criminología</p>
         </div>
-        <div id="afiche11texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>XXXXX</span></li><li><span>XXXXX</span></li><li><span>XXXXX</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://www.uned.cr/qr/XXXXX" target="_blank">https://<wbr>www.<wbr>uned.<wbr>cr/<wbr>qr/<wbr>XXXXX</a></p></div>
+        <div id="afiche11texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Plataforma lúdica de aprendizaje, que extrae los aspectos más importantes del libro <i>Fundamentos de Criminología</i>,</span></li><li><span>&nbsp;Permite conocer los antecedentes históricos y las características epistemológicas de la criminología como ciencia.</span></li><li><span>&nbsp;Incluye ocho actividades interactivas, con elementos de gamificación.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de la carrera de Carrera de Criminología.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Escuela de Ciencias Sociales y Humanidades, Cátedra de Criminología. Programa de Ciencias Criminológicas.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/criminologia/" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>criminologia/</a></p></div>
       </div>
-       <div id="banca_6" align="center"><img class="banca" src="images/elementos/banca.png"></div>
+
+      <div id="luz_9" align="center"><img class="spot" src="images/elementos/spot.png"></div>
+
+      <div class="elemento_historia" id="ele_his_5"><div class="circulo_grande"></div><img src="images/elementos/g_hito_autogestion.png"><p class="globo iii abajo-izquierda"><b>Plataformas Académicas de Autogestión:</b> sitios web autogestionados. </p></div>
+      
+      <div id="luz_larga_6" align="center"><img class="luz_larga" src="images/elementos/luz1.png"></div>      
+     
       <div id="afiche12">
         <div id="afiche12imagen" align="center">
-             <img class="afiche" src="images/afiches/Afiche_ecoexploradores.png">
-             <p>Ecoexploradores: cuidando nuestro planeta</p>
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('12');" class="afiche" src="images/afiches/Afiche_ecoexploradores.png">
+             <p>Ecoexploradores: cuidando <br>nuestro planeta</p>
         </div>
-        <div id="afiche12texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>XXXXX</span></li><li><span>XXXXX</span></li><li><span>XXXXX</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://www.uned.cr/qr/XXXXX" target="_blank">https://<wbr>www.<wbr>uned.<wbr>cr/<wbr>qr/<wbr>XXXXX</a></p></div>
+        <div id="afiche12texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Emplea una interfaz intuitiva apta para niños y adultos, que puede usarse en las aulas de primaria.</span></li><li><span>&nbsp;Combina teoría y actividades lúdicas, incluido un minijuego de competición sobre reciclaje.</span></li><li><span>&nbsp;Está desarrollado con un motor de juegos abierto y modelos 3D <i>low poly</i> (bajo poligonaje), para su ambientación y personajes.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes universitarios de la Carrera de Educación General Básica, I y II Ciclos y estudiantes de educación primaria.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Escuela Ciencias de la Educación, Cátedra Didáctica de las Ciencias Naturales.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/eco-exploradores/" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>eco-<wbr>exploradores/</a></p></div>
       </div>
-      <div id="banca_7" align="center"><img class="banca" src="images/elementos/banca.png"></div>
+      <div id="banca_6" align="center"><img class="banca" src="images/elementos/banca.png"></div>
       <div id="afiche13">
         <div id="afiche13imagen" align="center">
-             <img class="afiche" src="images/afiches/Afiche_InstFinacieros.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('13');" class="afiche" src="images/afiches/Afiche_InstFinacieros.png">
              <p>Simulador de negociación de instrumentos financieros</p>
         </div>
-        <div id="afiche13texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>XXXXX</span></li><li><span>XXXXX</span></li><li><span>XXXXX</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://www.uned.cr/qr/XXXXX" target="_blank">https://<wbr>www.<wbr>uned.<wbr>cr/<wbr>qr/<wbr>XXXXX</a></p></div>
+        <div id="afiche13texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Se enfoca en los principales instrumentos financieros actuales, como bonos, acciones y fondos de inversión.</span></li><li><span>&nbsp;Ofrece módulos independientes que permiten un uso flexible en diversos contextos formativos.</span></li><li><span>&nbsp;Cada módulo combina teoría y actividades interactivas para favorecer un aprendizaje autónomo y guiado.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de la Cátedra de Gestión Bancaria y a personas interesadas en los instrumentos financieros y los mercados internacionales.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Escuela Ciencias de la Administración, Cátedra Gestión Bancaria.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/instrumentos_financieros/page/temas.php" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>instrumentos_<wbr>financieros/<wbr>page/<wbr>temas.php</a></p></div>
       </div>
 
-
        <div id="luz_10" align="center"><img class="spot" src="images/elementos/spot.png"></div>
-       <div class="elemento_historia" id="ele_his_5"><div class="circulo_grande"></div><img src="images/elementos/g_hito_insignia.png"><p class="globo iii abajo-izquierda"><b>Insignia UNED:</b> Gestione el uso de insignias digitales con fines educativos.</p></div>
 
-      <div id="luz_11" align="center"><img class="spot" src="images/elementos/spot.png"></div>
-        <div class="elemento_historia" id="ele_his_6"><div class="circulo_grande"></div><img src="images/elementos/g_hito_mentor.png"><p class="globo iii abajo-izquierda"><b>Mentor:</b> Fortalezca sus habilidades y conocimiento a través de mentorías.</p></div>
+       <div class="elemento_historia" id="ele_his_6"><div class="circulo_grande"></div><img src="images/elementos/g_hito_mentor.png"><p class="globo iii abajo-izquierda"><b>MENTOR Multimedia:</b> espacio de mentorías sobre temas multimedia.</p></div>
 
-        <div id="luz_larga_6" align="center"><img class="luz_larga" src="images/elementos/luz1.png"></div>
+       <div id="luz_larga_7" align="center"><img class="luz_larga" src="images/elementos/luz1.png"></div>
 
         <div id="afiche14">
         <div id="afiche14imagen" align="center">
-             <img class="afiche" src="images/afiches/AficheInteligenciaPolicial.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('14');" class="afiche" src="images/afiches/AficheInteligenciaPolicial.png">
              <p>Inteligencia policial</p>
         </div>
-        <div id="afiche14texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>XXXXX</span></li><li><span>XXXXX</span></li><li><span>XXXXX</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">XXXXX</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://www.uned.cr/qr/XXXXX" target="_blank">https://<wbr>www.<wbr>uned.<wbr>cr/<wbr>qr/<wbr>XXXXX</a></p></div>
+        <div id="afiche14texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Multimedia pionero a nivel nacional, sobre el abordaje del “Ciclo de la inteligencia” en procesos de investigación y otras funciones policiales.</span></li><li><span>&nbsp;Herramienta de consulta para instituciones y organizaciones del ámbito policial o de seguridad ciudadana, tanto a nivel nacional como internacional.</span></li><li><span>&nbsp;Presenta un diseño dinámico, atractivo y de impacto, basado en la metáfora del cómic o historieta policial.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Estudiantes de la carrera de Ciencias Policiales de la UNED.</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Escuela Ciencias Sociales y Humanidades, Cátedra Gestión en Ciencias Policiales.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/inteligencia-policial/" target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>inteligencia-<wbr>policial/</a></p></div>
       </div>
-      <div id="banca_8" align="center"><img class="banca" src="images/elementos/banca.png"></div>
+      <div id="banca_7" align="center"><img class="banca" src="images/elementos/banca.png"></div>
       <div id="afiche15">
         <div id="afiche15imagen" align="center">
-             <img class="afiche" src="images/afiches/afi_blanco.png">
+             <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('15');" class="afiche" src="images/afiches/af_galeria_proceres.png">
              <p>Galería virtual de próceres</p>
         </div>
-        <div id="afiche15texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>Surge como una opción inmersiva en tres dimensiones para apreciar y divulgar las 32 esculturas de bustos de los próceres de la patria con los que cuenta la UNED.</span></li><li><span>Se acompaña a los bustos de cada prócer con una reseña biográfica.</span></li><li><span>Cuenta con una versión inmersiva de tres dimensiones, una de sitio web y otra de libro digital descargable.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Comunidad universitaria UNED</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Comisión de Arte de la UNED</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/galeriadeproceres/ " target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>galeriadeproceres/</a></p></div>
+        <div id="afiche15texto" class="afiches_cl"><p class="text-left"><img src="images/galeria/gal_aspectod.svg"><b>ASPECTOS RELEVANTES</b></p><p style="margin-left: 44px;" class="text-left"><ul class="text-left"><li><span>&nbsp;Opción inmersiva tridimensional, para apreciar y divulgar las 32 esculturas de bustos de los próceres de la patria con los que cuenta la UNED, al momento.</span></li><li><span>&nbsp;Incluye una reseña biográfica de cada personaje.</span></li><li><span>&nbsp;Cuenta con una versión inmersiva en tres dimensiones, un sitio web y un libro digital descargable.</span></li></ul></p><p class="text-left"><img src="images/galeria/gal_publico.svg"><b>PÚBLICO META</b></p><p style="margin-left: 44px;" class="text-left">Comunidad universitaria UNED</p><p class="text-left"><img src="images/galeria/gal_dependencia.svg"><b>DEPENDENCIA</b></p><p style="margin-left: 44px;" class="text-left">Vicerrectoría Ejecutiva, Comisión de Arte de la UNED.</p><p class="text-left"><img src="images/galeria/gal_enlace.svg"><b>ENLACE AL MATERIAL</b></p><p style="margin-left: 44px;" class="text-left"><a href="https://multimedia.uned.ac.cr/pem/galeriadeproceres/ " target="_blank">https://<wbr>multimedia.<wbr>uned.<wbr>ac.<wbr>cr/<wbr>pem/<wbr>galeriadeproceres/</a></p></div>
       </div>
-<!--  
-        
-      <div id="texto_recono"><p id="t_recono" class="titulo_primeralinea">Reconocimientos 2020</p></div>
 
-      <div id="luz_reco_1" ><img src="images/elementos/luz3.png"></div>
+      <div id="luz_11" align="center"><img class="spot" src="images/elementos/spot.png"></div>   
 
+      <div id="texto_pres_ma"><p id="t_pres_ma" class="titulo_primeralinea">Muestra de producciones PEM</p><p>una mirada a algunas de las producciones realizadas en los últimos cinco años, representativas por su temática, tipo de material multimedia y atención a los solicitantes, que reflejan el compromiso del programa con la calidad del trabajo realizado.</p></div>
+
+
+      <div id="imagen_tv_1"><img src="images/galeria/tv.svg"></div>
+       <div id="video_tv_1" align="center"><iframe src="https://vimeo.com/showcase/1135399739/embed"frameborder="0" allowfullscreen=""></iframe></div>
+
+      <div id="imagen_tv_2"><img src="images/galeria/tv.svg"></div>
+       <div id="video_tv_2" align="center"><iframe src="https://vimeo.com/showcase/1135398704/embed" frameborder="0" allowfullscreen=""></iframe></div>
+
+       <div id="imagen_tv_3"><img src="images/galeria/tv.svg"></div>
+       <div id="video_tv_3" align="center"><iframe src="https://vimeo.com/showcase/1124925706/embed" frameborder="0" allowfullscreen=""></iframe></div>    
+
+       <div id="imagen_tv_4"><img src="images/galeria/tv.svg"></div>
+       <div id="video_tv_4" align="center"><iframe src="https://vimeo.com/showcase/1124927198/embed" frameborder="0" allowfullscreen=""></iframe></div>
+
+      <div id="imagen_tv_5"><img src="images/galeria/tv.svg"></div>
+       <div id="video_tv_5" align="center"><iframe src="https://vimeo.com/showcase/1088490403/embed" frameborder="0" allowfullscreen=""></iframe></div>
+
+       <div id="imagen_tv_6"><img src="images/galeria/tv.svg"></div>
+       <div id="video_tv_6" align="center"><iframe src="https://vimeo.com/showcase/1126864977/embed" frameborder="0" allowfullscreen=""></iframe></div>
+
+
+       <div id="texto_recono"><p id="t_recono" class="titulo_primeralinea">Reconocimientos</p></div>  
+
+
+       <div id="luz_reco_1" ><img src="images/elementos/luz3.png"></div>
       <div class="reconocimiento" id="reco_1" align="center">
-           <p class="mayor_t">Éxito internacional</p>
-           <p>Sonidos del lenguaje</p>
+           <p class="mayor_t">Premio Anual de Innovación 2023</p>
            <div class="contiena_boton_afiche" align="center"><div class="boton_afiche" onclick="javascript:abrir_ventana_compu('10');">Ver más</div></div>
-           <div class="mayot_a" ><img src="images/afiches/af_dislalias.png"></div>
+           <div class="mayot_a" ><img src="images/afiches/afiche_reconocimientos_baraja_genomica.png"></div>
       </div>
-      <div id="busto_reco"><img src="images/elementos/internacional.png"></div>
       <div id="divisor_1"><img src="images/elementos/divisor.png"></div>
 
 
       <div id="luz_reco_2" ><img src="images/elementos/luz3.png"></div>
-       <div class="reconocimiento" id="reco_2" align="center">
-           <p class="mayor_t">Éxito nacional</p>
-           <p>Academia Municipal</p>
+      <div class="reconocimiento" id="reco_2" align="center">
+           <p class="mayor_t">Premio Persona Funcionaria Distinguida 2024</p>
            <div class="contiena_boton_afiche" align="center"><div class="boton_afiche" onclick="javascript:abrir_ventana_compu('11');">Ver más</div></div>
-           <div class="mayot_a" ><img src="images/afiches/af_academiareconocimiento.png"></div>
+           <div class="mayot_a" ><img src="images/afiches/afiche_reconocimientos_funcionarios_distinguidos.png"></div>
       </div>
-      <div id="busto_reco2"><img src="images/elementos/nacional.png"></div>
       <div id="divisor_2"><img src="images/elementos/divisor.png"></div>
+
 
       <div id="luz_reco_3" ><img src="images/elementos/luz3.png"></div>
       <div class="reconocimiento" id="reco_3" align="center">
-           <p class="mayor_t">Más navegado</p>
-           <p>Grammar Village</p>
+           <p class="mayor_t">Premios SIREICU 2025</p>
            <div class="contiena_boton_afiche" align="center"><div class="boton_afiche" onclick="javascript:abrir_ventana_compu('12');">Ver más</div></div>
-           <div class="mayot_a" ><img src="images/afiches/af_grammar.png"></div>
+           <div class="mayot_a" ><img src="images/afiches/afiche_reconocimientos_sireicu.png"></div>
       </div>
-      <div class="reconocimiento" id="reco_4" align="center">
-           <p class="mayor_t" id="honorifico">Más navegado (Mención honorífica)</p>
-           <p>Terminología Médica</p>
-           <div class="contiena_boton_afiche" align="center"><div class="boton_afiche" onclick="javascript:abrir_ventana_compu('13');">Ver más</div></div>
-           <div class="mayot_a" ><img src="images/afiches/af_terminologiamedica.png"></div>
-      </div>
-      <div id="busto_reco3"><img src="images/elementos/navegado.png"></div>
       <div id="divisor_3"><img src="images/elementos/divisor.png"></div>
-      <div id="divisor_4"><img src="images/elementos/divisor.png"></div>
+
+
+      <div id="texto_recono2"><p id="t_recono" class="titulo_primeralinea">Proyectos y convenios</p></div>
+
 
       <div id="luz_reco_4" ><img src="images/elementos/luz3.png"></div>
-       <div class="reconocimiento" id="reco_5" align="center">
-           <p class="mayor_t">Mayor permanencia</p>
-           <p id="nom_largo">Anatomía y Fisiología Animal</p>
-           <div class="contiena_boton_afiche" align="center"><div class="boton_afiche" onclick="javascript:abrir_ventana_compu('14');">Ver más</div></div>
-           <div class="mayot_a" ><img src="images/afiches/af_anatomia.png"></div>
+      <div class="reconocimiento" id="reco_4" align="center">
+           <p class="mayor_t">Ministerio de Trabajo y Seguridad Social</p>
+           <div class="contiena_boton_afiche" align="center"><div class="boton_afiche" onclick="javascript:abrir_ventana_compu('13');">Ver más</div></div>
+           <div class="mayot_a" ><img src="images/afiches/AficheProyectoMtssUned.png"></div>
       </div>
-      <div id="busto_reco4"><img src="images/elementos/permanencia.png"></div>
-      <div id="divisor_5"><img src="images/elementos/divisor.png"></div>
+      <div id="divisor_4"><img src="images/elementos/divisor.png"></div>
+
 
       <div id="luz_reco_5" ><img src="images/elementos/luz3.png"></div>
+      <div class="reconocimiento" id="reco_5" align="center">
+           <p class="mayor_t">Ministerio de Salud</p>
+           <div class="contiena_boton_afiche" align="center"><div class="boton_afiche" onclick="javascript:abrir_ventana_compu('14');">Ver más</div></div>
+           <div class="mayot_a" ><img src="images/afiches/AficheUlu.png"></div>
+      </div> 
+      <div id="divisor_5"><img src="images/elementos/divisor.png"></div>
+
+      <div id="luz_reco_6" ><img src="images/elementos/luz3.png"></div>
       <div class="reconocimiento" id="reco_6" align="center">
-           <p class="mayor_t">Escuela estrella</p>
-           <p>ECEN</p>
+           <p class="mayor_t">Universidad de Costa Rica</p>
            <div class="contiena_boton_afiche" align="center"><div class="boton_afiche" onclick="javascript:abrir_ventana_compu('15');">Ver más</div></div>
-           <div class="mayot_a" ><img src="images/afiches/af_ecen.png"></div>
+           <div class="mayot_a" ><img src="images/afiches/Afiche_convenio_Dolor.png"></div>
       </div>
-      <div id="busto_reco5"><img src="images/elementos/escuela.png"></div>
       <div id="divisor_6"><img src="images/elementos/divisor.png"></div>
 
 
-      <div id="banca_6" align="center"><img class="banca" src="images/elementos/banca.png"></div>
+<!--AQUI-->
+<!--  
+        
+
+
+      
+      
+
+
+      
 
       <div id="texto_aniv"><p id="t_aniv" class="titulo_primeralinea">Saludos</p><p>De aniversario</p></div>
 
@@ -430,13 +465,13 @@ border="0" alt="Counter"></a>
       <div id="titulo_moviles"><p><b>Galería virtual</b></p></div>
       <div id="titulo_2"><p>25 aniversario</p></div>
        <div class="textos_moviles">
-         <p>Bienvenidas y bienvenidos a la galería virtual del Programa de Producción Electrónica Multimedial (PEM) de la Universidad Estatal a Distancia de Costa Rica (UNED).<br>Les invitamos a recorrer este espacio con motivo del 25 aniversario del Programa, donde encontrará, una exposición de afiches representativos de materiales didácticos interactivos multimedia concluidos entre los años 2021 y 2025, así como reconocimientos, proyectos y convenios que se realizaron en ese periodo, entre otras secciones.<br>Estos recursos se destacan por su calidad y valor educativo, y constituyen ejemplos claros de los aportes del PEM al compromiso institucional de ofrecer herramientas de apoyo que fortalezcan las experiencias de aprendizaje de personas estudiantes y docentes, en el marco del modelo de educación a distancia de la UNED.</p>
+         <p>Bienvenidas y bienvenidos a la galería virtual del Programa de Producción Electrónica Multimedial (PEM) de la Universidad Estatal a Distancia de Costa Rica (UNED).<br>Acompáñenos a recorrer este espacio con motivo del 25 aniversario del Programa, donde encontrará; una exposición de afiches representativos de materiales didácticos interactivos multimedia concluidos entre los años 2021 y 2025, así como reconocimientos, proyectos y convenios que se realizaron en ese periodo, entre otras secciones.<br>Estos recursos se destacan por su calidad y valor educativo, y constituyen ejemplos claros de los aportes del PEM al compromiso institucional de ofrecer herramientas de apoyo que fortalezcan las experiencias de aprendizaje de personas estudiantes y docentes, en el marco del modelo de educación a distancia de la UNED.</p>
       </div>
       <div class="espaciador"></div>
       <div class="titulo2_moviles"><p><b>AFICHE CONMEMORATIVO<br> DEL 25 ANIVERSARIO</b></p></div>
       <img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('10');" class="afiche_moviles" src="images/afiches/g_afiche25.png">
        <div class="textos_moviles">
-         <p>En el año 2025, el PEM celebra "25 años inspirando aprendizaje", a través de la producción de materiales didácticos interactivos multimedia, que buscan cumplir con estándares de calidad que surgen de la experiencia de más de 25 años de investigación y producción y del aporte de todas las personas que han formado parte de nuestros equipos de producción.</p><p>Estos estándares responden a novedosos enfoques pedagógicos, a criterios universales de diseño y al uso de las tecnologías emergentes. Todo esto, con el fin de favorecer los procesos de aprendizaje de las personas estudiantes, acordes con las necesidades de áreas sustantivas como la docencia, investigación, extensión universitaria, entre otras, tanto a nivel nacional como internacional.</p>
+         <p>En el año 2025, el PEM celebra "25 años inspirando aprendizaje", a través de la producción de materiales didácticos interactivos multimedia, que buscan cumplir con estándares de calidad, que surgen de la experiencia de más de dos décadas de investigación y producción y del aporte de todas las personas, quienes han formado parte de nuestros equipos de producción.</p><p>Estos estándares responden a novedosos enfoques pedagógicos, a criterios universales de diseño y al uso de las tecnologías emergentes, con el fin de favorecer los procesos de aprendizaje de las personas estudiantes, acordes con las necesidades de áreas sustantivas como la docencia, investigación, extensión universitaria, entre otras, tanto a nivel nacional como internacional.</p>
       </div>
       <div class="espaciador"></div>
       <div class="espaciador"></div>
@@ -447,8 +482,8 @@ border="0" alt="Counter"></a>
       <div id="conteo_movil" align="center"><div id="textoconteo_movil" align="center"><p id="p1"></p><p id="p2">visitantes</p></div><img src="images/elementos/caballete.png"></div></div>
       <div class="espaciador"></div>
       <div class="espaciador"></div>
-      <div class="titulo2_moviles"><p id="t_acto_moviles" class="titulo_primeralinea">25 años inspirando aprendizaje</p><p>Palabras de las autoridades universitarias</p></div>
-      <div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/00000/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div>     
+      <div class="titulo2_moviles"><p id="t_acto_moviles" class="titulo_primeralinea">25 años inspirando aprendizaje</p><p>Palabras de la doctora Mildred Acuña Sossa, Vicerrectora de Docencia; del doctor Luis Fernando Fallas Fallas, Director de la Dirección de Producción de Materiales Didácticos; y, del Máster Juan Diego Delgado Vargas, Coordinador del PEM.</p></div>
+      <div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/1135400466/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div>     
       <div class="espaciador"></div> 
       <div class="espaciador"></div> 
       <div id="titulo_ex_afgi"><p id="ta" class="titulo_primeralinea">Exposición de afiches</p><p>Materiales multimedia<br>2021-2025</p></div> 
@@ -461,19 +496,19 @@ border="0" alt="Counter"></a>
 
          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('3');" class="afi" src="images/afiches/AficheQualituFair.png"><p>Quality Fair</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('3');">Ver más</div></div>
 
-          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('4');" class="afi" src="images/afiches/afi_blanco.png"><p>Academia Precálculo</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('4');">Ver más</div></div>
+          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('4');" class="afi" src="images/afiches/af_precalculo.png"><p>Academia Precálculo</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('4');">Ver más</div></div>
 
           <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('5');" class="afi" src="images/afiches/AficheDarkTourism.png"><p>Dark Tourism en Costa Rica</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('5');">Ver más</div></div>
 
           <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('6');" class="afi" src="images/afiches/Afiche_SAPC.png"><p>Simulador de precios y costos</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('6');">Ver más</div></div>
 
-          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('7');" class="afi" src="images/afiches/afi_blanco.png"><p>Gira virtual Parque Nacional los Quetzales y Cerro Buenavista</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('7');">Ver más</div></div>
+          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('7');" class="afi" src="images/afiches/af_gira_virtual.png"><p>Gira virtual Parque Nacional los Quetzales y Cerro Buenavista</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('7');">Ver más</div></div>
 
           <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('8');" class="afi" src="images/afiches/AficheTransitemos.png"><p>Transitemos hacia una nueva cultura de seguridad vial</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('8');">Ver más</div></div>
 
-          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('9');" class="afi" src="images/afiches/afi_blanco.png"><p>Feria vocacional en línea 2023</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('9');">Ver más</div></div>
+          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('9');" class="afi" src="images/afiches/af_feri_vocacional.png"><p>Feria vocacional en línea 2023</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('9');">Ver más</div></div>
 
-          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('11');" class="afi" src="images/afiches/afi_blanco.png"><p>Fundamentos de Criminología</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('103');">Ver más</div></div>
+          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('11');" class="afi" src="images/afiches/af_criminologia.png"><p>Fundamentos de Criminología</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('103');">Ver más</div></div>
         
           <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('12');" class="afi" src="images/afiches/Afiche_ecoexploradores.png"><p>Ecoexploradores: cuidando nuestro planeta</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('104');">Ver más</div></div>
         
@@ -481,7 +516,7 @@ border="0" alt="Counter"></a>
        
           <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('14');" class="afi" src="images/afiches/AficheInteligenciaPolicial.png"><p>Inteligencia policial</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('106');">Ver más</div></div>
           
-          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('15');" class="afi" src="images/afiches/afi_blanco.png"><p>Galería virtual de próceres</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('107');">Ver más</div></div>
+          <div class="gallery-cell"><img style="cursor: pointer;" onclick="javascript:abrir_imagen_movil('15');" class="afi" src="images/afiches/af_galeria_proceres.png"><p>Galería virtual de próceres</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('107');">Ver más</div></div>
 
 
         </div>
@@ -497,49 +532,86 @@ border="0" alt="Counter"></a>
         <div class="gallery js-flickity"
           data-flickity-options='{ "freeScroll": true, "wrapAround": true, "autoPlay": true}'>
 
-          <div class="gallery-cell"><img src="images/elementos/g_hito_qr.png"><p class="textocarru"><b>QR UNED:</b> Gestione códigos QR y direcciones web cortas. De uso exclusivo para funcionarios de la UNED.</p></div>
+          <div class="gallery-cell"><img src="images/elementos/g_hito_multimedia.png"><p class="textocarru"><b>Multimedia UNED:</b> catálogo de materiales didácticos interactivos multimedia.</p></div>
 
-          <div class="gallery-cell"><img src="images/elementos/g_hito_multimedia.png"><p class="textocarru"><b>Multimedia UNED:</b> Acceda a materiales didácticos interactivos multimedia y recursos digitales de la UNED.  </p></div>
+          <div class="gallery-cell"><img src="images/elementos/g_hito_sonar.png"><p class="textocarru"><b>SONAR Multimedia:</b> blog para compartir información sobre el quehacer multimedia.</p></div>
 
-          <div class="gallery-cell"><img src="images/elementos/g_hito_autogestion.png"><p class="textocarru"><b>Plataformas Académicas de Autogestión, PAAGs:</b> Administre sitios web de actividades académicas.</p></div>
+          <div class="gallery-cell"><img src="images/elementos/g_hito_insignia.png"><p class="textocarru"><b>Insignia UNED:</b> herramienta para crear y adjudicar insignias digitales.</p></div>
 
-          <div class="gallery-cell"><img src="images/elementos/g_hito_sonar.png"><p class="textocarru"><b>SONAR Multimedia:</b> Descubra más sobre el quehacer del PEM en la producción de materiales didácticos.</p></div>
+          <div class="gallery-cell"><img src="images/elementos/g_hito_qr.png"><p class="textocarru"><b>QR UNED:</b> herramienta para crear y administrar códigos QR.</p></div>
 
-          <div class="gallery-cell"><img src="images/elementos/g_hito_insignia.png"><p class="textocarru"><b>Insignia UNED:</b> Gestione el uso de insignias digitales con fines educativos.</p></div>
+          <div class="gallery-cell"><img src="images/elementos/g_hito_autogestion.png"><p class="textocarru"><b>Plataformas Académicas de Autogestión:</b> sitios web autogestionados.</p></div>
 
-          <div class="gallery-cell"><img src="images/elementos/g_hito_mentor.png"><p class="textocarru"><b>Mentor:</b> Fortalezca sus habilidades y conocimiento a través de mentorías.</p></div>
+          <div class="gallery-cell"><img src="images/elementos/g_hito_mentor.png"><p class="textocarru"><b>MENTOR Multimedia:</b> espacio de mentorías sobre temas multimedia.</p></div>
 
         </div>
       <!--carrusel-->  
       <div class="espaciador"></div> 
       <div class="espaciador"></div> 
-      <div class="titulo2_moviles"><p id="t_acto_moviles" class="titulo_primeralinea">Presentación</p><p>De materiales multimedia</p></div>
-      <div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/7844954/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div> 
+      <div class="titulo2_moviles"><p id="t_acto_moviles" class="titulo_primeralinea">Muestra de producciones PEM</p><p>una mirada a algunas de las producciones realizadas en los últimos cinco años, representativas por su temática, tipo de material multimedia y atención a los solicitantes, que reflejan el compromiso del programa con la calidad del trabajo realizado.</p></div>
+
+
+      <!--<div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/7844954/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div>-->
+
+
+      <div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/1135399739/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div>
+
+      <div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/1135398704/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div>
+
+      <div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/1124925706/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div>
+
+      <div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/1124927198/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div>
+
+      <div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/1088490403/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div>
+
+      <div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/1126864977/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div>
+
       <div class="espaciador"></div>
       <div class="espaciador"></div>
-       <div class="titulo2_moviles"><p id="t_acto_moviles">Reconocimientos<br><br>2020</p></div><br>
+       <div class="titulo2_moviles"><p id="t_acto_moviles">Reconocimientos</p></div><br>
+
+
        <!--carrusel-->
         <div class="gallery js-flickity"
           data-flickity-options='{ "freeScroll": true, "wrapAround": true, "autoPlay": true}'>
 
-          <div class="gallery-cell"><div class="ico_carru"><img src="images/elementos_moviles/movil_ico_internacional.svg"></div><div class="titulo2_moviles"><p id="t_acto_moviles">Éxito internacional</p><p>Material con mayor cantidad de sesiones desde el extranjero</p></div><img class="afi" src="images/afiches/af_dislalias.png"><p>Sonidos del lenguaje</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('10');">Ver más</div></div>
+          <div class="gallery-cell"><br><br><div class="titulo2_moviles"><p id="t_acto_moviles">Premio Anual de Innovación 2023</p></div><br><img class="afi" src="images/afiches/afiche_reconocimientos_baraja_genomica.png"><br><br><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('10');">Ver más</div></div>
 
+          <div class="gallery-cell"><br><br><div class="titulo2_moviles"><p id="t_acto_moviles">Premio Persona Funcionaria Distinguida 2024</p></div><br><img class="afi" src="images/afiches/afiche_reconocimientos_funcionarios_distinguidos.png"><br><br><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('11');">Ver más</div></div>
 
-          <div class="gallery-cell"><div class="ico_carru"><img src="images/elementos_moviles/movil_ico_nacional.svg"></div><div class="titulo2_moviles"><p id="t_acto_moviles">Éxito nacional</p><p>Material con mayor cantidad de sesiones a nivel nacional</p></div><img class="afi" src="images/afiches/af_academiareconocimiento.png"><p>Academia Municipal</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('11');">Ver más</div></div>
+          <div class="gallery-cell"><br><br><div class="titulo2_moviles"><p id="t_acto_moviles">Premios SIREICU 2025</p></div><br><img class="afi" src="images/afiches/afiche_reconocimientos_sireicu.png"><br><br><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('12');">Ver más</div></div>
 
-          <div class="gallery-cell"><div class="ico_carru"><img src="images/elementos_moviles/movil_ico_navegado.svg"></div><div class="titulo2_moviles"><p id="t_acto_moviles">Más navegado</p><p>Material con mayor cantidad de páginas por sesión a nivel nacional</p></div><img class="afi" src="images/afiches/af_grammar.png"><p>Grammar Village</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('12');">Ver más</div></div>
-
-          <div class="gallery-cell"><div class="ico_carru"><img src="images/elementos_moviles/movil_ico_navegado.svg"></div><div class="titulo2_moviles"><p id="t_acto_moviles">Más navegado<br><samp style="font-size: 20px; font-family: 'Manjari', sans-serif; line-height: 22px;">(Mención honorífica)</samp></p><p>Material con mayor cantidad de páginas por sesión a nivel nacional</p></div><img class="afi" src="images/afiches/af_terminologiamedica.png"><p>Terminología Médica</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('13');">Ver más</div></div>
-
-          <div class="gallery-cell"><div class="ico_carru"><img src="images/elementos_moviles/movil_ico_permanencia.svg"></div><div class="titulo2_moviles"><p id="t_acto_moviles">Mayor permanencia</p><p>Material con mayor duración media de la sesión a nivel nacional</p></div><img class="afi" src="images/afiches/af_anatomia.png"><p>Anatomía y Fisiología Animal</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('14');">Ver más</div></div>
-
-          <div class="gallery-cell"><div class="ico_carru"><img src="images/elementos_moviles/movil_ico_escuela.svg"></div><br><div class="titulo2_moviles"><p id="t_acto_moviles">Escuela estrella</p><p>Escuela con mayor cantidad de multimedias activos</p></div><img class="afi" src="images/afiches/af_ecen.png"><p>ECEN</p><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('15');">Ver más</div></div>
 
 
         </div>
       <!--carrusel--> 
+
       <div class="espaciador"></div>
       <div class="espaciador"></div>
+      <div class="titulo2_moviles"><p id="t_acto_moviles">Proyectos y convenios</p></div><br>
+
+      <!--carrusel-->
+        <div class="gallery js-flickity"
+          data-flickity-options='{ "freeScroll": true, "wrapAround": true, "autoPlay": true}'>
+
+          <div class="gallery-cell"><br><br><div class="titulo2_moviles"><p id="t_acto_moviles">Ministerio de Trabajo y Seguridad Social</p></div><br><img class="afi" src="images/afiches/AficheProyectoMtssUned.png"><br><br><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('13');">Ver más</div></div>
+
+          <div class="gallery-cell"><br><br><div class="titulo2_moviles"><p id="t_acto_moviles">Ministerio de Salud</p></div><br><img class="afi" src="images/afiches/AficheUlu.png"><br><br><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('14');">Ver más</div></div>
+
+          <div class="gallery-cell"><br><br><div class="titulo2_moviles"><p id="t_acto_moviles">Universidad de Costa Rica</p></div><br><img class="afi" src="images/afiches/Afiche_convenio_Dolor.png"><br><br><div class="boton_afiche" onclick="javascript:abrir_ventana_movil('15');">Ver más</div></div>
+
+
+
+        </div>
+      <!--carrusel--> 
+
+
+<!--AQUI CELULAR-->
+
+      
+      <div class="espaciador"></div>
+      <div class="espaciador"></div>
+
       <div class="titulo2_moviles"><p id="t_acto_moviles" class="titulo_primeralinea">Saludos</p><p>De aniversario</p></div>
       <div id="imagen_tv_movil"><div id="video_tv_movil" align="center"><iframe src="https://vimeo.com/showcase/7841020/embed" frameborder="0" allowfullscreen="" ></iframe></div><img src="images/galeria/tv.svg"></div> 
       <div class="espaciador"></div> 
