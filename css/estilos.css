@@ -687,9 +687,9 @@ body, html {
 
 #texto_acto{
   position: absolute;
-  left: 3300px;
+  left: 3200px;
   top: 320px;
-  width: 250px;
+  width: 450px;
 }
 
 #texto_acto p{
@@ -700,29 +700,63 @@ body, html {
   font-size: 24px;
 }
 
-#imagen_tv{
+#imagen_tv, #imagen_tv_1, #imagen_tv_2, #imagen_tv_3, #imagen_tv_4, #imagen_tv_5, #imagen_tv_6{
   position: absolute;
   left: 3700px;
   top: 200px;
   width: 500px;
 }
 
-#video_tv{
+#video_tv, #video_tv_1, #video_tv_2, #video_tv_3, #video_tv_4, #video_tv_5, #video_tv_6{
   position: absolute;
   left: 3700px;
   top: 224px;
   width: 500px;
 }
 
-#video_tv iframe{
+#imagen_tv_1, #video_tv_1{
+  left: 26245px;
+}
+
+/*CADA 600*/
+
+#imagen_tv_2, #video_tv_2{
+  left: 26845px;
+}
+
+#imagen_tv_3, #video_tv_3{
+  left: 27445px;
+}
+
+#imagen_tv_4, #video_tv_4{
+  left: 28045px;
+}
+
+#imagen_tv_5, #video_tv_5{
+  left: 28645px;
+}
+
+#imagen_tv_6, #video_tv_6{
+  left: 29245px;
+}
+
+#video_tv iframe, #video_tv_1 iframe, #video_tv_2 iframe, #video_tv_3 iframe, #video_tv_4 iframe, #video_tv_5 iframe, #video_tv_6 iframe{
   width: 448px;
   height: 251px;
 }
 
 #texto_afiches-e{
   position: absolute;
-  left: 4500px;
+  left: 5500px;
   top: 320px;
+  width: 250px;
+}
+
+#luz_pensador{
+  position: absolute;
+  z-index: 3;
+  top: -5px;
+  left: 4700px;
   width: 250px;
 }
 
@@ -730,7 +764,7 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 4500px;
+  left: 5500px;
   width: 250px;
 }
 
@@ -777,7 +811,8 @@ body, html {
 #luz_larga_1{
   position: absolute;
   top: -5px;
-  left: 5010px;
+  left: 6010px;
+  z-index: 800;
 }
 
 .luz_larga{
@@ -787,8 +822,8 @@ body, html {
 
 #afiche2, #afiche3, #afiche4, #afiche5, #afiche6, #afiche7, #afiche8, #afiche9, #afiche10, #afiche11, #afiche12, #afiche13, #afiche14, #afiche15{
   position: absolute;
-  top: 200px;
-  left: 5280px;
+  top: 150px;
+  left: 6280px;
   width: 940px;
   height: 440px;
 }
@@ -811,7 +846,7 @@ body, html {
 
 #afiche2texto, #afiche3texto, #afiche4texto, #afiche5texto, #afiche6texto, #afiche7texto, #afiche8texto, #afiche9texto, #afiche10texto, #afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{
   padding: 20px;
-  padding-top: 40px;
+  padding-top: -40px;
   float: left;
   width: 500px;
   height: 600px;
@@ -820,7 +855,7 @@ body, html {
 #banca_1{
   position: absolute;
   top: 740px;
-  left: 5920px;
+  left: 6920px;
 }
 
 .banca{
@@ -828,30 +863,31 @@ body, html {
 }
 
 #afiche3{
-  left: 6400px;
+  left: 7400px;
 }
 
 #luz_5{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 7420px;
+  left: 8420px;
   width: 250px;
 }
 
 #logo_20{
   position: absolute;
-  left: 7280px;
+  left: 4650px;
   top: 390px;
+  z-index: 800;
 }
 
 .e20_ani{
   width: 260px;
 }
 
-#venus_1{
+#pensador_1{
   position: absolute;
-  left: 7550px;
+  left: 4900px;
   top: 240px;
 }
 
@@ -862,33 +898,34 @@ body, html {
 #luz_larga_2{
   position: absolute;
   top: -5px;
-  left: 7790px;
+  left: 8790px;
+  z-index: 800;
 }
 
-#afiche4{
-  left: 8080px;
+#afiche4, #afiche5, #afiche8{ /*CAMBIA AFICHES GRANDES*/
+  left: 9080px;
 }
 
-#afiche4texto{
-  padding-top: 10px;
+#afiche4texto, #afiche5texto, #afiche8texto{ /*CAMBIA AFICHES GRANDES*/
   width: 600px;
 }
+
 
 #banca_2{
   position: absolute;
   top: 740px;
-  left: 8700px;
+  left: 9700px;
 }
 
 #afiche5{
-  left: 9140px;
+  left: 10140px;
 }
 
 #luz_6{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 10185px;
+  left: 11185px;
   width: 370px;
 }
 
@@ -901,7 +938,7 @@ body, html {
 
 #ele_his_1{
   top: 540px;
-  left: 10185px;
+  left: 8400px;
 }
 
 #ele_his_1 .globo.iii{
@@ -929,18 +966,26 @@ body, html {
 #luz_larga_3{
   position: absolute;
   top: -5px;
-  left: 10600px;
+  left: 11600px;
+  z-index: 800;
 }
 
 #luz_larga_6{
   position: absolute;
   top: -5px;
-  left: 22285px;
+  left: 20000px;
+  z-index: 800;
+}
+
+#luz_larga_7{
+  position: absolute;
+  top: -5px;
+  left: 22985px;
   z-index: 800;
 }
 
 #afiche6{
-  left: 10880px;
+  left: 11880px;
 }
 
 #afiche6texto{
@@ -951,24 +996,24 @@ body, html {
 #banca_3{
   position: absolute;
   top: 740px;
-  left: 11520px;
+  left: 12520px;
 }
 
 #afiche7{
-  left: 11950px;
+  left: 12950px;
 }
 
 #luz_7{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 12985px;
+  left: 13985px;
   width: 370px;
 }
 
 #ele_his_2{
   top: 540px;
-  left: 12985px;
+  left: 11185px;
 }
 
 #ele_his_2 .globo.iii{
@@ -978,7 +1023,7 @@ body, html {
 #luz_larga_4{
   position: absolute;
   top: -5px;
-  left: 13400px;
+  left: 14400px;
   z-index: 800;
 }
 
@@ -986,32 +1031,28 @@ body, html {
 #luz_larga_5{
   position: absolute;
   top: -5px;
-  left: 17750px; 
+  left: 17200px; 
   z-index: 800;
 }
 
 #afiche11{
-  left: 18050px;
+  left: 18450px;
 }
 
 #afiche12{
-  left: 19150px;
+  left: 20250px;
 }
 
 #afiche13{
-  left: 20150px;
+  left: 21330px;
 }
 
 #afiche14{
-  left: 22585px;
+  left: 23285px;
 }
 
 #afiche15{
-  left: 23595px;
-}
-
-#afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{
-  padding-top: 14px;
+  left: 24255px;
 }
 
 .luz_larg1{
@@ -1021,17 +1062,17 @@ body, html {
 #banca_4{
   position: absolute;
   top: 740px;
-  left: 14300px;
+  left: 15300px;
 }
 
 #banca_5{
   position: absolute;
   top: 740px;
-  left: 15350px;
+  left: 18150px;
 }
 
 #afiche8{
-  left: 13680px;
+  left: 14630px;
 }
 
 #afiche8texto{
@@ -1039,11 +1080,11 @@ body, html {
 }
 
 #afiche9{
-  left: 14700px;
+  left: 15650px;
 }
 
 #afiche10{
-  left: 15800px;
+  left: 17400px;
 }
 
 #afiche10texto{
@@ -1054,13 +1095,13 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 16800px;
+  left: 16780px;
   width: 370px;
 }
 
 #ele_his_3{
   top: 540px;
-  left: 16800px;
+  left: 13985px;
 }
 
 #ele_his_3 .globo.iii{
@@ -1071,7 +1112,7 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 17200px;
+  left: 19590px;
   width: 370px;
 }
 
@@ -1079,40 +1120,39 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 21250px;
+  left: 22440px;
   width: 370px;
 }
-
 
 #luz_11{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 21650px;
+  left: 25575px;
   width: 370px;
 }
 
 
 #ele_his_4{
   top: 540px;
-  left: 17200px;
+  left: 16780px;
 }
 
 #ele_his_5{
   top: 540px;
-  left: 21265px; 
+  left: 19590px; 
 }
 
 #ele_his_6{
   top: 540px;
-  left: 21665px; 
+  left: 22440px; 
 }
 
 #texto_pres_ma{
   position: absolute;
-  left: 17650px;
+  left: 25545px;
   top: 320px;
-  width: 250px;
+  width: 450px;
 }
 
 #texto_pres_ma p{
@@ -1167,74 +1207,78 @@ body, html {
   left: 19040px;
 }
 
-#texto_recono{
+#texto_recono, #texto_recono2{
   position: absolute;
-  left: 19700px;
+  left: 29945px;
   top: 320px;
   width: 250px;
 }
 
-#texto_recono p{
+#texto_recono2{
+   left: 34545px;
+}
+
+#texto_recono p, #texto_recono2 p{
   text-align: center;
 }
 
-#texto_recono #t_recono{
+#texto_recono #t_recono, #texto_recono2 #t_recono{
   font-size: 24px;
 }
 
 .reconocimiento{
   position: absolute;
-  width: 400px;
+  width: 450px;
   top: 80px;
   left: 400px;
+  z-index: 800;
 }
+
 
 .reconocimiento .contiena_boton_afiche{
   position: absolute;
-  bottom: 10px;
-  width: 400px;
+  bottom: -55px;
+  width: 450px;
 }
 
 .reconocimiento .mayor_t{
   text-align: center;
   font-weight: 800;
   font-size: 20px;
-  margin-top: 10px;
 }
 
 .reconocimiento p{
   text-align: center;
-  margin-top: 10px;
   font-size: 20px;
 }
 
+
 .reconocimiento .mayot_a{
-  width: 400px;
-  -webkit-box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.34);
- -moz-box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.34);
-  box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.34);
-  padding: 40px;
-  padding-bottom: 80px;
-  border: 1px solid #FFFFFF;
+  margin-top: -25px;
+  width: 450px;
+  padding-bottom: 40px;
+  background: center center no-repeat;
+  background-size: 100% 100%;
+  background-image: url(../images/elementos/galeria_marco_reconocimiento.png);
 }
 
 .reconocimiento .mayot_a img{
-  width: 320px;
-  border: 1px solid #FFFFFF;
+  margin-top: 40px;
+  width: 370px;
 }
 
 #luz_reco_1{
   position: absolute;
-  top: -5px;
-  left: 20100px;
+  top: -15px;
+  left: 30245px;
 }
 
 #luz_reco_1 img{ 
-  width: 1300px;
+  width: 1200px;
 }
 
 #reco_1{
-  left: 20600px;
+  left: 30615px;
 }
 
 #busto_reco{
@@ -1250,7 +1294,7 @@ body, html {
 #divisor_1{
    position: absolute;
    top:690px;
-   left: 20450px;
+   left: 30495px;
 }
 
 #divisor_1 img{
@@ -1259,8 +1303,8 @@ body, html {
 
 #luz_reco_2{
   position: absolute;
-  top: -5px;
-  left: 21550px;
+  top: -15px;
+  left: 31595px;
 }
 
 #luz_reco_2 img{ 
@@ -1268,7 +1312,7 @@ body, html {
 }
 
 #reco_2{
-  left: 22050px;
+  left: 31965px;
 }
 
 #busto_reco2{
@@ -1284,7 +1328,7 @@ body, html {
 #divisor_2{
    position: absolute;
    top:690px;
-   left: 21900px;
+   left: 31845px;
 }
 
 #divisor_2 img{
@@ -1293,8 +1337,8 @@ body, html {
 
 #luz_reco_3{
   position: absolute;
-  top: -5px;
-  left: 23000px;
+  top: -15px;
+  left: 33095px
 }
 
 #luz_reco_3 img{ 
@@ -1302,11 +1346,11 @@ body, html {
 }
 
 #reco_3{
-  left: 23250px;
+  left: 33465px;
 }
 
 #reco_4{
-  left: 23700px;
+  left: 35215px;
 }
 
 #busto_reco3{
@@ -1322,7 +1366,7 @@ body, html {
 #divisor_3{
    position: absolute;
    top:690px;
-   left: 23100px;
+   left: 33345px;
 }
 
 #divisor_3 img{
@@ -1332,7 +1376,7 @@ body, html {
 #divisor_4{
    position: absolute;
    top:690px;
-   left: 23540px;
+   left: 35095px;
 }
 
 #divisor_4 img{
@@ -1341,8 +1385,8 @@ body, html {
 
 #luz_reco_4{
   position: absolute;
-  top: -5px;
-  left: 24450px; 
+  top: -15px;
+  left: 34845px; 
 }
 
 #luz_reco_4 img{ 
@@ -1350,7 +1394,7 @@ body, html {
 }
 
 #reco_5{
-  left: 25000px
+  left: 36615px
 }
 
 #busto_reco4{
@@ -1366,7 +1410,7 @@ body, html {
 #divisor_5{
    position: absolute;
    top:690px;
-   left: 24850px;
+   left: 36495px;
 }
 
 #divisor_5 img{
@@ -1375,16 +1419,26 @@ body, html {
 
 #luz_reco_5{
   position: absolute;
-  top: -5px;
-  left: 25900px; 
+  top: -15px;
+  left: 36245px; 
 }
 
 #luz_reco_5 img{ 
   width: 1300px;
 }
 
+#luz_reco_6{
+  position: absolute;
+  top: -15px;
+  left: 37745px; 
+}
+
+#luz_reco_6 img{ 
+  width: 1300px;
+}
+
 #reco_6{
-  left: 26450px
+  left: 38115px;
 }
 
 #busto_reco5{
@@ -1400,7 +1454,7 @@ body, html {
 #divisor_6{
    position: absolute;
    top:690px;
-   left: 26300px;
+   left: 37995px;
 }
 
 #divisor_6 img{
@@ -1410,19 +1464,15 @@ body, html {
 #banca_6{
   position: absolute;
   top: 740px;
-  left: 18610px;
+  left: 20890px;
 }
+
+
 
 #banca_7{
   position: absolute;
   top: 740px;
-  left: 19700px;
-}
-
-#banca_8{
-  position: absolute;
-  top: 740px;
-  left: 23195px;
+  left: 23895px;
 }
 
 #texto_aniv{
@@ -1721,9 +1771,9 @@ body, html {
 
 #texto_acto{
   position: absolute;
-  left: 3100px;
+  left: 3000px;
   top: 220px;
-  width: 250px;
+  width: 450px;
 }
 
 #luz_3{
@@ -1742,29 +1792,64 @@ body, html {
   font-size: 24px;
 }
 
-#imagen_tv{
+#imagen_tv, #imagen_tv_1, #imagen_tv_2, #imagen_tv_3, #imagen_tv_4, #imagen_tv_5, #imagen_tv_6{
   position: absolute;
   left: 3500px;
   top: 120px;
   width: 500px;
 }
 
-#video_tv{
+
+#video_tv, #video_tv_1, #video_tv_2, #video_tv_3, #video_tv_4, #video_tv_5, #video_tv_6{
   position: absolute;
   left: 3500px;
   top: 144px;
   width: 500px;
 }
 
-#video_tv iframe{
+#imagen_tv_1, #video_tv_1{
+  left: 23900px;
+}
+
+/*CADA 600*/
+
+#imagen_tv_2, #video_tv_2{
+  left: 24500px;
+}
+
+#imagen_tv_3, #video_tv_3{
+  left: 25100px;
+}
+
+#imagen_tv_4, #video_tv_4{
+  left: 25700px;
+}
+
+#imagen_tv_5, #video_tv_5{
+  left: 26300px;
+}
+
+#imagen_tv_6, #video_tv_6{
+  left: 26900px;
+}
+
+#video_tv iframe, #video_tv_1 iframe, #video_tv_2 iframe, #video_tv_3 iframe, #video_tv_4 iframe, #video_tv_5 iframe, #video_tv_6 iframe{
   width: 448px;
   height: 251px;
 }
 
 #texto_afiches-e{
   position: absolute;
-  left: 4300px;
+  left: 5300px;
   top: 220px;
+  width: 250px;
+}
+
+#luz_pensador{
+  position: absolute;
+  z-index: 3;
+  top: -5px;
+  left: 4500px;
   width: 250px;
 }
 
@@ -1772,7 +1857,7 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 4300px;
+  left: 5300px;
   width: 250px;
 }
 
@@ -1787,7 +1872,7 @@ body, html {
 #luz_larga_1{
   position: absolute;
   top: -5px;
-  left: 4700px;
+  left: 5700px;
   z-index: 800;
 }
 
@@ -1830,7 +1915,7 @@ body, html {
 #banca_1{
   position: absolute;
   top: 550px;
-  left: 5520px;
+  left: 6540px;
 }
 
 .banca{
@@ -1838,30 +1923,31 @@ body, html {
 }
 
 #afiche3{
-  left: 5820px;
+  left: 6820px;
 }
 
 #luz_5{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 6820px;
+  left: 7820px;
   width: 250px;
 }
 
 #logo_20{
   position: absolute;
-  left: 6700px;
+  left: 4450px;
   top: 250px;
+  z-index: 800;
 }
 
 .e20_ani{
   width: 260px;
 }
 
-#venus_1{
+#pensador_1{
   position: absolute;
-  left: 6950px;
+  left: 4700px;
   top: 130px;
 }
 
@@ -1872,11 +1958,12 @@ body, html {
 #luz_larga_2{
   position: absolute;
   top: -5px;
-  left: 7190px;
+  left: 8190px;
+  z-index: 800;
 }
 
 #afiche4{
-  left: 7390px;
+  left: 8290px;
 }
 
 #afiche4texto{
@@ -1888,18 +1975,18 @@ body, html {
 #banca_2{
   position: absolute;
   top: 550px;
-  left: 8030px;
+  left: 9030px;
 }
 
 #afiche5{
-  left: 8310px;
+  left: 9310px;
 }
 
 #luz_6{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 9280px;
+  left: 10280px;
   width: 300px;
 }
 
@@ -1920,7 +2007,7 @@ body, html {
 
 #ele_his_1{
   top: 380px;
-  left: 9280px;
+  left: 7800px;
 }
 
 #ele_his_1 .globo.iii{
@@ -1948,61 +2035,68 @@ body, html {
 #luz_larga_3{
   position: absolute;
   top: -5px;
-  left: 9680px;
+  left: 10680px;
   z-index: 800;
 }
 
 #luz_larga_6{
   position: absolute;
   top: -5px;
-  left: 20585px;
+  left: 18400px;
   z-index: 800;
 }
 
+#luz_larga_7{
+  position: absolute;
+  top: -5px;
+  left: 20985px;
+  z-index: 800;
+}
 
 #afiche6{
-  left: 9780px;
+  left: 10780px;
 }
 
 #afiche2{
-  left: 4800px;
+  left: 5860px;
 }
 
-#afiche6, #afiche2{ /*CAMBIA AFICHES*/
-  width: 940px;
+#afiche4, #afiche6, #afiche2, #afiche5, #afiche3, #afiche7, #afiche8, #afiche9, #afiche10, #afiche11, #afiche12, #afiche13, #afiche14, #afiche15{ /*CAMBIA AFICHES*/
+  width: 900px;
 }
 
-#afiche6texto, #afiche2texto{ /*CAMBIA AFICHES*/
+#afiche4texto, #afiche6texto, #afiche2texto, #afiche3texto, #afiche5texto, #afiche7texto, #afiche8texto, #afiche9texto, #afiche10texto, #afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{ /*CAMBIA AFICHES*/
   padding-top: 0px;
-  margin-top: -40px;
+  margin-top: -50px;
   margin-left: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  width: 580px;
+  width: 500px;
   /*background-color: green;*/
 }
+
 
 #banca_3{
   position: absolute;
   top: 550px;
-  left: 10530px;
+  left: 11530px;
 }
 
 #afiche7{
-  left: 10800px;
+  left: 11800px;
 }
 
 #luz_7{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 11700px;
+  left: 12800px;
   width: 300px;
 }
 
 #ele_his_2{
   top: 400px;
-  left: 11700px;
+  left: 10280px;
 }
 
 #ele_his_2 .globo.iii{
@@ -2012,41 +2106,35 @@ body, html {
 #luz_larga_4{
   position: absolute;
   top: -5px;
-  left: 12000px;
+  left: 13250px;
+  z-index: 800;
 }
 
 #luz_larga_5{
   position: absolute;
   top: -5px;
-  left: 16350px; 
+  left: 15800px; 
   z-index: 800;
 }
 
 #afiche11{
-  left: 16550px;
+  left: 16950px;
 }
 
 #afiche12{
-  left: 17650px;
+  left: 18450px;
 }
 
 #afiche13{
-  left: 18650px;
+  left: 19530px;
 }
 
 #afiche14{
-  left: 20835px;
+  left: 21085px;
 }
 
 #afiche15{
-  left: 21725px;
-}
-
-#afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{
-  margin-top: -25px;
-  padding-top: 0px;
-  width: 520px;
-  /*background-color: red;*/
+  left: 22100px;
 }
 
 .luz_larg1{
@@ -2056,44 +2144,38 @@ body, html {
 #banca_4{
   position: absolute;
   top: 550px;
-  left: 12920px;
+  left: 14070px;
 }
 
 #banca_5{
   position: absolute;
   top: 550px;
-  left: 13950px;
+  left: 16650px;
 }
 
 #afiche8{
-  left: 12230px;
+  left: 13380px;
 }
 
 #afiche9{
-  left: 13250px;
+  left: 14400px;
 }
 
 #afiche10{
-  left: 14300px;
-}
-
-#afiche8texto, #afiche9texto, #afiche10texto{
-  margin-top: -10px;
-  padding-top: 0px;
-  width: 510px;
+  left: 15900px;
 }
 
 #luz_8{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 15400px;
+  left: 15380px;
   width: 300px;
 }
 
 #ele_his_3{
   top: 400px;
-  left: 15400px;
+  left: 12800px;
 }
 
 #ele_his_3 .globo.iii{
@@ -2104,7 +2186,7 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 15800px;
+  left: 17940px;
   width: 300px;
 }
 
@@ -2112,7 +2194,7 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 19650px;
+  left: 20500px;
   width: 370px;
 }
 
@@ -2120,13 +2202,14 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 20050px;
+  left: 23230px;
   width: 370px;
 }
 
+
 #ele_his_4{
   top: 400px;
-  left: 15800px;
+  left: 15380px;
 }
 
 #ele_his_4 .globo.iii{
@@ -2135,7 +2218,7 @@ body, html {
 
 #ele_his_5{
   top: 400px;
-  left: 19685px;
+  left: 17940px;
 }
 
 #ele_his_5 .globo.iii{
@@ -2144,7 +2227,7 @@ body, html {
 
 #ele_his_6{
   top: 400px;
-  left: 20085px; 
+  left: 20540px;
 }
 
 #ele_his_6 .globo.iii{
@@ -2153,9 +2236,9 @@ body, html {
 
 #texto_pres_ma{
   position: absolute;
-  left: 16350px;
+  left: 23200px;
   top: 220px;
-  width: 250px;
+  width: 450px;
 }
 
 #texto_pres_ma p{
@@ -2204,71 +2287,77 @@ body, html {
   left: 17540px;
 }
 
-#texto_recono{
+#texto_recono, #texto_recono2{
   position: absolute;
-  left: 18200px;
+  left: 27600px;
   top: 220px;
   width: 250px;
 }
 
-#texto_recono p{
-  text-align: center;
+#texto_recono2{
+  left: 32300px;
 }
 
-#texto_recono #t_recono{
+#texto_recono p, #texto_recono2 p{
+  text-align: center
+}
+
+#texto_recono #t_recono, #texto_recono2 #t_recono{
   font-size: 24px;
 }
 
 .reconocimiento{
   position: absolute;
-  width: 320px;
-  top: 60px;
+  width: 430px;
+  top: 70px;
+  z-index: 800;
+  margin-left: -50px;
 }
 
 .reconocimiento .contiena_boton_afiche{
   position: absolute;
-  bottom: 10px;
-  width: 320px;
+  bottom: -45px;
+  width: 430px;
 }
 
 .reconocimiento .mayor_t{
   text-align: center;
   font-weight: 800;
   font-size: 20px;
-  margin-top: 5px;
+ 
 }
 
 .reconocimiento p{
   text-align: center;
-  margin-top: 0px;
   font-size: 20px;
 }
 
 .reconocimiento .mayot_a{
-  width: 300px;
-  -webkit-box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.34);
- -moz-box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.34);
-  box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.34);
-  padding: 20px;
-  padding-bottom: 80px;
+  margin-top: -25px;
+  width: 330px;
+  padding-bottom: 40px;
+  background: center center no-repeat;
+  background-size: 100% 100%;
+  background-image: url(../images/elementos/galeria_marco_reconocimiento.png);
 }
 
 .reconocimiento .mayot_a img{
-  width: 220px;
+  margin-top: 40px;
+  width: 260px;
 }
 
 #luz_reco_1{
   position: absolute;
-  top: -5px;
-  left: 18500px;
+  top: -15px;
+  left: 27900px;
 }
 
 #luz_reco_1 img{ 
-  width: 1300px;
+  width: 1200px;
 }
 
 #reco_1{
-  left: 19000px;
+  left: 28340px;
 }
 
 #busto_reco{
@@ -2284,7 +2373,7 @@ body, html {
 #divisor_1{
    position: absolute;
    top:505px;
-   left: 18862px;
+   left: 28200px;
 }
 
 #divisor_1 img{
@@ -2293,8 +2382,8 @@ body, html {
 
 #luz_reco_2{
   position: absolute;
-  top: -5px;
-  left: 19950px;
+  top: -15px;
+  left: 29300px;
 }
 
 #luz_reco_2 img{ 
@@ -2302,7 +2391,7 @@ body, html {
 }
 
 #reco_2{
-  left: 20450px;
+  left: 29740px;
 }
 
 #busto_reco2{
@@ -2318,7 +2407,7 @@ body, html {
 #divisor_2{
    position: absolute;
    top:505px;
-   left: 20300px;
+   left: 29600px;
 }
 
 #divisor_2 img{
@@ -2327,8 +2416,8 @@ body, html {
 
 #luz_reco_3{
   position: absolute;
-  top: -5px;
-  left: 21400px;
+  top: -15px;
+  left: 30800px;
 }
 
 #luz_reco_3 img{ 
@@ -2336,11 +2425,11 @@ body, html {
 }
 
 #reco_3{
-  left: 21750px;
+  left: 31240px;
 }
 
 #reco_4{
-  left: 22150px;
+  left: 33040px;
 }
 
 #honorifico{
@@ -2361,7 +2450,7 @@ body, html {
 #divisor_3{
    position: absolute;
    top:505px;
-   left: 21600px;
+   left: 31100px;
 }
 
 #divisor_3 img{
@@ -2371,7 +2460,7 @@ body, html {
 #divisor_4{
    position: absolute;
    top:505px;
-   left: 22000px;
+   left: 32900px;
 }
 
 #divisor_4 img{
@@ -2380,8 +2469,8 @@ body, html {
 
 #luz_reco_4{
   position: absolute;
-  top: -5px;
-  left: 22850px; 
+  top: -15px;
+  left: 32600px; 
 }
 
 #luz_reco_4 img{ 
@@ -2389,7 +2478,7 @@ body, html {
 }
 
 #reco_5{
-  left: 23400px
+  left: 34540px
 }
 
 #busto_reco4{
@@ -2405,7 +2494,7 @@ body, html {
 #divisor_5{
    position: absolute;
    top:505px;
-   left: 23250px;
+   left: 34400px;
 }
 
 #divisor_5 img{
@@ -2414,16 +2503,26 @@ body, html {
 
 #luz_reco_5{
   position: absolute;
-  top: -5px;
-  left: 24300px; 
+  top: -15px;
+  left: 34100px; 
 }
 
 #luz_reco_5 img{ 
   width: 1300px;
 }
 
+#luz_reco_6{
+  position: absolute;
+  top: -15px;
+  left: 35600px; 
+}
+
+#luz_reco_6 img{ 
+  width: 1300px;
+}
+
 #reco_6{
-  left: 24850px
+  left: 36040px;
 }
 
 #busto_reco5{
@@ -2439,7 +2538,7 @@ body, html {
 #divisor_6{
    position: absolute;
    top:505px;
-   left: 24700px;
+   left: 35900px;
 }
 
 #divisor_6 img{
@@ -2449,19 +2548,14 @@ body, html {
 #banca_6{
   position: absolute;
   top: 550px;
-  left: 17210px;
+  left: 19230px;
 }
+
 
 #banca_7{
   position: absolute;
   top: 550px;
-  left: 18300px;
-}
-
-#banca_8{
-  position: absolute;
-  top: 550px;
-  left: 21405px;
+  left: 21805px;
 }
 
 #texto_aniv{
@@ -2726,16 +2820,24 @@ body, html {
 
  #texto_afiches-e{
   position: absolute;
-  left: 3700px;
+  left: 4700px;
   top: 190px;
   width: 250px;
 }
+
+#luz_pensador{
+  position: absolute;
+    z-index: 3;
+    top: -5px;
+    left: 3900px;
+    width: 250px;
+  }
 
   #luz_4{
     position: absolute;
     z-index: 3;
     top: -5px;
-    left: 3700px;
+    left: 4700px;
     width: 250px;
   }
 
@@ -2750,7 +2852,8 @@ body, html {
   #luz_larga_1{
     position: absolute;
     top: -5px;
-    left: 4100px;
+    left: 5100px;
+    z-index: 800;
   }
 
   .luz_larga{
@@ -2793,7 +2896,7 @@ body, html {
 #banca_1{
   position: absolute;
   top: 430px;
-  left: 4840px;
+  left: 5840px;
 }
 
 .banca{
@@ -2801,30 +2904,31 @@ body, html {
 }
 
 #afiche3{
-  left: 5080px;
+  left: 6080px;
 }
 
 #luz_5{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 6020px;
+  left: 7020px;
   width: 250px;
 }
 
 #logo_20{
   position: absolute;
-  left: 5950px;
+  left: 3850px;
   top: 180px;
+  z-index: 800;
 }
 
 .e20_ani{
   width: 200px;
 }
 
-#venus_1{
+#pensador_1{
   position: absolute;
-  left: 6150px;
+  left: 4100px;
   top: 80px;
 }
 
@@ -2835,11 +2939,12 @@ body, html {
 #luz_larga_2{
   position: absolute;
   top: -5px;
-  left: 6390px;
+  left: 7390px;
+  z-index: 800;
 }
 
 #afiche4{
-  left: 6540px;
+  left: 7540px;
 }
 
 #afiche4texto{
@@ -2853,18 +2958,18 @@ body, html {
 #banca_2{
   position: absolute;
   top: 430px;
-  left: 7135px;
+  left: 8135px;
 }
 
 #afiche5{
-  left: 7370px;
+  left: 8370px;
 }
 
 #luz_6{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 8300px;
+  left: 9300px;
   width: 270px;
 }
 
@@ -2885,7 +2990,7 @@ body, html {
 
 #ele_his_1{
   top: 260px;
-  left: 8300px;
+  left: 7000px;
 }
 
 #ele_his_1 .globo.iii{
@@ -2913,21 +3018,29 @@ body, html {
 #luz_larga_3{
   position: absolute;
   top: -5px;
-  left: 8680px;
+  left: 9680px;
+  z-index: 800;
 }
 
 #luz_larga_6{
   position: absolute;
   top: -5px;
-  left: 20585px;
+  left: 16900px;
+  z-index: 800;
+}
+
+#luz_larga_7{
+  position: absolute;
+  top: -5px;
+  left: 20985px;
   z-index: 800;
 }
 
 #afiche6{
-  left: 8830px;
+  left: 9830px;
 }
 
-#afiche6texto, #afiche2texto{ /*CAMBIA AFICHES*/
+#afiche6texto, #afiche2texto, #afiche3texto, #afiche5texto, #afiche7texto, #afiche8texto, #afiche9texto{ /*CAMBIA AFICHES*/
   padding-top: 0px;
   padding-left: 5px;
   margin-left: -10px;
@@ -2939,24 +3052,24 @@ body, html {
 #banca_3{
   position: absolute;
   top: 430px;
-  left: 9430px;
+  left: 10430px;
 }
 
 #afiche7{
-  left: 9650px;
+  left: 10650px;
 }
 
 #luz_7{
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 10600px;
+  left: 11700px;
   width: 270px;
 }
 
 #ele_his_2{
   top: 260px;
-  left: 10600px;
+  left: 9300px;
 }
 
 #ele_his_2 .globo.iii{
@@ -2966,34 +3079,35 @@ body, html {
 #luz_larga_4{
   position: absolute;
   top: -5px;
-  left: 11000px;
+  left: 12250px;
+  z-index: 800;
 }
 
 #luz_larga_5{
   position: absolute;
   top: -5px;
-  left: 16350px; 
+  left: 14300px; 
   z-index: 800;
 }
 
 #afiche11{
-  left: 16450px;
+  left: 16850px;
 }
 
 #afiche12{
-  left: 19650px;
+  left: 20650px;
 }
 
 #afiche13{
-  left: 20750px;
+  left: 21630px;
 }
 
 #afiche14{
-  left: 20885px;
+  left: 21285px;
 }
 
 #afiche15{
-  left: 21585px;
+  left: 21945px;
 }
 
 #afiche11texto, #afiche12texto, #afiche13texto, #afiche14texto, #afiche15texto{
@@ -3011,25 +3125,25 @@ body, html {
 #banca_4{
   position: absolute;
   top: 430px;
-  left: 11800px;
+  left: 13050px;
 }
 
 #banca_5{
   position: absolute;
   top: 430px;
-  left: 12710px;
+  left: 15410px;
 }
 
 #afiche8{
-  left: 11170px;
+  left: 12420px;
 }
 
 #afiche9{
-  left: 12045px;
+  left: 13095px;
 }
 
 #afiche10{
-  left: 12920px;
+  left: 14620px;
 }
 
 #afiche8texto, #afiche9texto, #afiche10texto{
@@ -3044,13 +3158,13 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 14000px;
+  left: 13980px;
   width: 270px;
 }
 
 #ele_his_3{
   top: 260px;
-  left: 14000px;
+  left: 11700px;
 }
 
 #ele_his_3 .globo.iii{
@@ -3061,7 +3175,7 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 14300px;
+  left: 16440px;
   width: 270px;
 }
 
@@ -3069,7 +3183,7 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 19650px;
+  left: 20500px;
   width: 370px;
 }
 
@@ -3077,13 +3191,13 @@ body, html {
   position: absolute;
   z-index: 3;
   top: -5px;
-  left: 20050px;
+  left: 24965px;
   width: 370px;
 }
 
 #ele_his_4{
   top: 260px;
-  left: 14300px;
+  left: 13980px;
 }
 
 #ele_his_4 .globo.iii{
@@ -3092,7 +3206,7 @@ body, html {
 
 #ele_his_5{
   top: 260px;
-  left: 19685px;
+  left: 16440px;
 }
 
 #ele_his_5 .globo.iii{
@@ -3101,7 +3215,7 @@ body, html {
 
 #ele_his_6{
   top: 260px;
-  left: 20085px; 
+  left: 20540px;
 }
 
 #ele_his_6 .globo.iii{
@@ -3110,7 +3224,7 @@ body, html {
 
 #texto_pres_ma{
   position: absolute;
-  left: 14700px;
+  left: 22535px;
   top: 220px;
   width: 250px;
 }
@@ -3164,7 +3278,7 @@ body, html {
 
 #texto_recono{
   position: absolute;
-  left: 16100px;
+  left: 22335px;
   top: 220px;
   width: 250px;
 }
@@ -3371,7 +3485,7 @@ body, html {
 #divisor_5{
    position: absolute;
    top:375px;
-   left: 20200px;
+   left: 34400px;
 }
 
 #divisor_5 img{
@@ -3415,19 +3529,14 @@ body, html {
 #banca_6{
   position: absolute;
   top: 430px;
-  left: 16610px;
+  left: 18830px;
 }
+
 
 #banca_7{
   position: absolute;
   top: 430px;
-  left: 20150px;
-}
-
-#banca_8{
-  position: absolute;
-  top: 430px;
-  left: 21185px;
+  left: 21585px;
 }
 
 #texto_aniv{
@@ -3826,7 +3935,7 @@ body, html {
 
 #imagen_movil img{
   width: 96%;
-  max-width: 600px;
+  max-width: 550px;
 }
 
 #imagen_movil p{
