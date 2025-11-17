@@ -206,10 +206,13 @@ body, html {
   bottom: 0px;
   color: #62678F; 
   font-size: 14px;
+  background-color: #d6d6d6;
+  padding-top: 4px;
 }
 
 #contenedor_creditos_fijos_moviles{
   display: none;
+  background-color: #d6d6d6;
 }
 
 #contenedor_creditos_fijos samp{
@@ -2663,8 +2666,34 @@ body, html {
 
 /*TAMANNO MAS PEQUENNO - MAX ALTO 800 - ALTO PARED 480*/
 
+@media (max-height: 690px) {
+
+#banca_1, #banca_2, #banca_3, #banca_4, #banca_5, #banca_6, #banca_7{
+  display: none;
+}
+
+}
+
+@media (max-height: 630px) {
+
+#ele_his_1, #ele_his_2, #ele_his_3, #ele_his_4, #ele_his_5, #ele_his_6{
+  top: 320px;
+}
+
+#guia{
+   margin-left: 19px;
+
+}
+
+#techo{
+  top: -19px;
+}
+
+}
+
 @media (max-height: 800px) {
 
+/*
 #flecha_derecha img, #flecha_izquierda img{
     width: 50px;
     background-color: #EAE6E4;
@@ -2688,8 +2717,6 @@ body, html {
     z-index: 4;
     top:275px;
 }
-
-
 
   #pared{
     height: 480px;
@@ -3040,7 +3067,7 @@ body, html {
   left: 9830px;
 }
 
-#afiche6texto, #afiche2texto, #afiche3texto, #afiche5texto, #afiche7texto, #afiche8texto, #afiche9texto{ /*CAMBIA AFICHES*/
+#afiche6texto, #afiche2texto, #afiche3texto, #afiche5texto, #afiche7texto, #afiche8texto, #afiche9texto{ 
   padding-top: 0px;
   padding-left: 5px;
   margin-left: -10px;
@@ -3636,7 +3663,7 @@ body, html {
   left: 25000px;
   width: 200px;
   height: 100px;
-}
+}*/
 
 }
 
@@ -4007,7 +4034,7 @@ body, html {
   min-width: 260px;
 }
 
-@media (max-width: 1506px) {
+@media (max-width: 992px) {
   #contenedor_creditos_fijos_moviles{
     display: block;
   }
@@ -4049,7 +4076,7 @@ body, html {
   }
 }
 
-@media (max-height: 800px) {/*560*/
+@media (max-height: 615px) {/*560*/
   #contenedor_creditos_fijos_moviles{
     display: block;
   }
