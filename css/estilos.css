@@ -746,14 +746,14 @@ body, html {
   position: absolute;
   left: 3700px;
   top: 200px;
-  width: 500px;
+  width: 550px;
 }
 
 #video_tv, #video_tv_1, #video_tv_2, #video_tv_3, #video_tv_4, #video_tv_5, #video_tv_6{
   position: absolute;
   left: 3700px;
-  top: 224px;
-  width: 500px;
+  top: 228px;
+  width: 550px;
 }
 
 #imagen_tv_1, #video_tv_1{
@@ -783,8 +783,8 @@ body, html {
 }
 
 #video_tv iframe, #video_tv_1 iframe, #video_tv_2 iframe, #video_tv_3 iframe, #video_tv_4 iframe, #video_tv_5 iframe, #video_tv_6 iframe{
-  width: 448px;
-  height: 251px;
+  width: 452px;
+  height: 252px;
 }
 
 #texto_afiches-e{
@@ -1856,15 +1856,15 @@ body, html {
   position: absolute;
   left: 3500px;
   top: 120px;
-  width: 500px;
+  width: 550px;
 }
 
 
 #video_tv, #video_tv_1, #video_tv_2, #video_tv_3, #video_tv_4, #video_tv_5, #video_tv_6{
   position: absolute;
   left: 3500px;
-  top: 144px;
-  width: 500px;
+  top: 148px;
+  width: 550px;
 }
 
 #imagen_tv_1, #video_tv_1{
@@ -1894,8 +1894,8 @@ body, html {
 }
 
 #video_tv iframe, #video_tv_1 iframe, #video_tv_2 iframe, #video_tv_3 iframe, #video_tv_4 iframe, #video_tv_5 iframe, #video_tv_6 iframe{
-  width: 448px;
-  height: 251px;
+  width: 452px;
+  height: 252px;
 }
 
 #texto_afiches-e{
