@@ -66,40 +66,40 @@ body, html {
   }
 
   ::-webkit-scrollbar-track{
-    background-color: #dcd4d0; 
+    background-color: #babdc6; 
     opacity: 0.2;
     border-radius: 12px;
     height: 10px;
   }
 
   ::scrollbar-track{
-      background-color: #dcd4d0; 
+      background-color: #babdc6; 
       opacity: 0.2;
       border-radius: 12px;
       height: 10px;
   }
 
   ::-moz-osx-scrollbar-track{
-      background-color: #dcd4d0; 
+      background-color: #babdc6; 
       opacity: 0.2;
       border-radius: 12px;
       height: 10px;
   }
 
   ::-webkit-scrollbar-thumb{
-      background-color: #b4a49f;
+      background-color: #828282;
       border-radius: 12px;
       height: 0px;
   }
 
   ::scrollbar-thumb{
-      background-color: #b4a49f;
+      background-color: #828282;
       border-radius: 12px;
       height: 0px;
   }
 
   ::-moz-osx-scrollbar-thumb{
-      background-color: #b4a49f;
+      background-color: #828282;
       border-radius: 12px;
       height: 0px;
   }
@@ -234,7 +234,7 @@ body, html {
   z-index: 4;
   bottom: 0px;
   color: #62678F; 
-  font-size: 14px;
+  font-size: 16px;
   background-color: #d6d6d6;
   padding-top: 4px;
 }
@@ -247,7 +247,7 @@ body, html {
 #contenedor_creditos_fijos samp{
   font-family: 'Manjari', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #contenedor_creditos_fijos a{
@@ -510,6 +510,7 @@ body, html {
   overflow: scroll;
   transform-origin: 100% 0%;
   transform: rotate(-90deg) translateY(-100vh);
+  overflow-x: hidden;
 }
 .horizontal-child .slide {
   text-align: center;
@@ -2394,6 +2395,7 @@ body, html {
 .reconocimiento .mayot_a{
   margin-top: -25px;
   width: 330px;
+  height: 430px;
   padding-bottom: 40px;
   background: center center no-repeat;
   background-size: 100% 100%;
@@ -2401,8 +2403,10 @@ body, html {
 }
 
 .reconocimiento .mayot_a img{
-  margin-top: 40px;
-  width: 260px;
+  margin-top: 34px;
+  width: 264px;
+  height:364px;
+  background-color: #babdc6;
 }
 
 #luz_reco_1{
