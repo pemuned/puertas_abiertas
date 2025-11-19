@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="css/animations.css">
 <!-- Carrusel -->
 <link rel="stylesheet" href="css/flickity.css">
-<!-- Estilos Propios 5vCqxyNNyYw46id -->
+<!-- Estilos Propios nNHGCBGvSWgEFb5 -->
 <link rel="stylesheet" href="css/estilos.css">
 <!-- Carrusel en CSS -->
 <link rel="stylesheet" href="css/carousel.css">
@@ -22,9 +22,59 @@
 
 <body>
 
-<!--<div id="opaco_videos" align="center">
-  <div id="ventana_video"><div id="contenido_ventana_video" align="center"></div><br><div class="boton_ventanas" onclick="javascript:abrir_ventana_video('0');">Cerrar</div></div>
-</div>-->
+<dialog id="welcomeDialog">
+<div id="opaco" align="center">
+  
+  <div class="slideDown" id="ventana_informacion" align="center">
+    
+        <div id="n_1">
+          <div class="imagen_popup"><img src="images/popupinfo/galeria_ojo.png"></div>
+          <div class="texto_popup">Para navegar en la galería virtual puede hacerlo de 3 formas distintas:</div>
+          <div class="tult_popup">
+            <div class="circulo activo"></div>
+            <div class="circulo" onclick="javascript:menu_bolitas('1_2');"></div>
+            <div class="circulo" onclick="javascript:menu_bolitas('1_3');"></div>
+            <div class="circulo" onclick="javascript:menu_bolitas('1_4');"></div>
+          </div>
+          <div class="boton_ventanas" onclick="javascript:abrir_popup('2');">Siguiente</div>
+        </div>
+        <div id="n_2">
+          <div class="imagen_popup"><img src="images/popupinfo/galeria_flechas_juntas.png"></div>
+          <div class="texto_popup">Con los botones de navegación de la interfaz</div>
+          <div class="tult_popup">
+            <div class="circulo" onclick="javascript:menu_bolitas('2_1');"></div>
+            <div class="circulo activo"></div>
+            <div class="circulo" onclick="javascript:menu_bolitas('2_3');"></div>
+            <div class="circulo" onclick="javascript:menu_bolitas('2_4');"></div>
+          </div>
+          <div class="boton_ventanas" onclick="javascript:abrir_popup('3');">Siguiente</div>
+        </div>
+        <div id="n_3">
+          <div class="imagen_popup" id="trespopup"><img src="images/popupinfo/galeria_mouse.png"></div>
+          <div class="texto_popup">Con la rueda de desplazamiento del <i>mouse</i></div>
+          <div class="tult_popup">
+            <div class="circulo" onclick="javascript:menu_bolitas('3_1');"></div>
+            <div class="circulo" onclick="javascript:menu_bolitas('3_2');"></div>
+            <div class="circulo activo"></div>
+            <div class="circulo" onclick="javascript:menu_bolitas('3_4');"></div>
+          </div>
+          <div class="boton_ventanas" onclick="javascript:abrir_popup('4');">Siguiente</div>
+        </div>
+        <div id="n_4">
+          <div class="imagen_popup" id="cuatropopup"><img src="images/popupinfo/galeria_flechas_teclado.png"></div>
+          <div class="texto_popup">Con las flechas del teclado</div>
+          <div class="tult_popup">
+            <div class="circulo" onclick="javascript:menu_bolitas('4_1');"></div>
+            <div class="circulo" onclick="javascript:menu_bolitas('4_2');"></div>
+            <div class="circulo" onclick="javascript:menu_bolitas('4_3');"></div>
+            <div class="circulo activo"></div>
+          </div>
+          <div class="boton_ventanas" id="closeDialogEntra">Entrar</div>
+        </div>
+  </div>
+
+</div>
+</dialog>
 
 
 <div id="opaco_compu" align="center"></div>
@@ -38,61 +88,6 @@
   <br> 
   <div class="boton_ventanas" onclick="javascript:abrir_ventana_movil('0');">Cerrar</div>
 </div></div> 
-
-
-<!-- 
-<div id="opaco" align="center">
-  
-  <div class="slideDown" id="ventana_informacion" align="center">
-    
-        <div id="n_1">
-          <div class="imagen_popup"><img src="images/popupinfo/galeria_ojo.svg"></div>
-          <div class="texto_popup">Para navegar en la galería virtual puede hacerlo de 3 formas distintas:</div>
-          <div class="tult_popup">
-            <div class="circulo activo"></div>
-            <div class="circulo" onclick="javascript:menu_bolitas('1_2');"></div>
-            <div class="circulo" onclick="javascript:menu_bolitas('1_3');"></div>
-            <div class="circulo" onclick="javascript:menu_bolitas('1_4');"></div>
-          </div>
-          <div class="boton_ventanas" onclick="javascript:abrir_popup('2');">Siguiente</div>
-        </div>
-        <div id="n_2">
-          <div class="imagen_popup"><img src="images/popupinfo/galeria_flechas_juntas.svg"></div>
-          <div class="texto_popup">Con los botones de navegación de la interfaz</div>
-          <div class="tult_popup">
-            <div class="circulo" onclick="javascript:menu_bolitas('2_1');"></div>
-            <div class="circulo activo"></div>
-            <div class="circulo" onclick="javascript:menu_bolitas('2_3');"></div>
-            <div class="circulo" onclick="javascript:menu_bolitas('2_4');"></div>
-          </div>
-          <div class="boton_ventanas" onclick="javascript:abrir_popup('3');">Siguiente</div>
-        </div>
-        <div id="n_3">
-          <div class="imagen_popup" id="trespopup"><img src="images/popupinfo/galeria_mouse.svg"></div>
-          <div class="texto_popup">Con la rueda de desplazamiento del <i>mouse</i></div>
-          <div class="tult_popup">
-            <div class="circulo" onclick="javascript:menu_bolitas('3_1');"></div>
-            <div class="circulo" onclick="javascript:menu_bolitas('3_2');"></div>
-            <div class="circulo activo"></div>
-            <div class="circulo" onclick="javascript:menu_bolitas('3_4');"></div>
-          </div>
-          <div class="boton_ventanas" onclick="javascript:abrir_popup('4');">Siguiente</div>
-        </div>
-        <div id="n_4">
-          <div class="imagen_popup" id="cuatropopup"><img src="images/popupinfo/galeria_flechas_teclado.svg"></div>
-          <div class="texto_popup">Con las flechas del teclado</div>
-          <div class="tult_popup">
-            <div class="circulo" onclick="javascript:menu_bolitas('4_1');"></div>
-            <div class="circulo" onclick="javascript:menu_bolitas('4_2');"></div>
-            <div class="circulo" onclick="javascript:menu_bolitas('4_3');"></div>
-            <div class="circulo activo"></div>
-          </div>
-          <div class="boton_ventanas" onclick="javascript:abrir_popup('0');">Entrar</div>
-        </div>
-  </div>
-
-</div>
--->
  
 <div id="contenedor_dis_grandes" style="color:#FFFFFF;">
 
@@ -672,9 +667,25 @@ border="0" alt="Counter"></a>
 <script src="js/flickity.pkgd.min.js"></script>
 <script src="js/funciones.js"></script>
 
+<script>
+  const dialog = document.getElementById("welcomeDialog");
+  const closeBtnEntra = document.getElementById("closeDialogEntra");
+  
+  const alto = $(window).height();
+  const ancho = $(window).width();
 
+   if(alto > 615 && ancho > 1355 ){
+  // Verifica si ya se mostró el modal antes
+  if (!localStorage.getItem("modalShown")) {
+    dialog.showModal();
+    localStorage.setItem("modalShown", "true");
+  } 
+  }
 
-<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMV1CP96Z5"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-DMV1CP96Z5'); </script> 
+  // Cierra el modal al hacer clic
+  closeBtnEntra.addEventListener("click", () => dialog.close());
+</script>
 
 </body>
+
 </html>
