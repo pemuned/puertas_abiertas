@@ -527,7 +527,7 @@ $(window).ready(function(){
   if(alto > 560 && ancho > 1506 ){
     var lasCookies =  readCookie("Ventanatutorial");
     if(lasCookies != 'ON'){
-      $("#opaco").fadeIn(1000);
+      //$("#opaco").fadeIn(1000);
       document.cookie = "Ventanatutorial=ON; expires=Thu, 18 Dec 2023 12:00:00 UTC"; 
     }
   }
