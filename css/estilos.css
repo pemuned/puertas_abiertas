@@ -118,14 +118,17 @@ body, html {
 
 
 /*POPUP INFORMACION*/
-#opaco{
+#welcomeDialog{
   width: 100%;
   height: auto;
   min-height: 100%;
   position: fixed;
-  z-index: 5;
-  background-color: rgba(0,0,0,0.80);
-  display: none;
+  border: none;
+  z-index: 900;
+  background-color: rgba(0,0,0,0.70);
+  box-shadow: 10px 10px 5px 56px rgba(0,0,0,0.9);
+ -webkit-box-shadow: 10px 10px 5px 56px rgba(0,0,0,0.9);
+ -moz-box-shadow: 10px 10px 5px 56px rgba(0,0,0,0.9);
 }
 
 #opaco_compu{
@@ -163,10 +166,10 @@ body, html {
 }
 
 #ventana_informacion{
-    color: #62678F;
+    color: #FFFFFF;
     width: 400px;
     height: 460px;
-    background-color: #EAE6E4;
+    background-color: #28385b;
     border-radius: 10px;
     padding: 30px;
     padding-top: 50px;
@@ -213,18 +216,18 @@ body, html {
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
-     background: #979cb5;
+     background: #828282;
      margin: 5px;
      float: left;
      cursor: pointer;
 }
 
 .circulo:hover{
-  background: #626790;
+  background: #FFFFFF;
 }
 
 .activo{
-  background: #626790;
+  background: #FFFFFF;
 }
 
 #contenedor_creditos_fijos{
